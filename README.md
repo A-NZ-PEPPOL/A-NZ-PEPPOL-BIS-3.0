@@ -1,9 +1,9 @@
 # A-NZ PEPPOL BIS 3.0
-Within this repository is a range of artefacts that will help PEPPOL Service Providers implement and adopt the Australia-New Zealand standards to e-Procurement.
+Within this repository is a range of artefacts that will help PEPPOL Service Providers implement and adopt the Australia-New Zealand extension of the PEPPOL BIS 3.0 Specification.
 ## What's inside
-1) A-NZ PEPPOL BIS 3.0 Specifications
-2) A-NZ Schematron validation documents `coming soon`
-3) A-NZ Specification XML message examples `coming soon`
+* [A-NZ PEPPOL BIS 3.0 Specifications](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications)
+* A-NZ Schematron validation documents `coming soon`
+* A-NZ Specification XML message examples `coming soon`
 
 ## Feedback
 Please do not hesitate to get in touch if you have any feedback on ways we can improve this repository.
