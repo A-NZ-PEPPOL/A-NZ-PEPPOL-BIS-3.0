@@ -27,4 +27,4 @@ Release include:
 * Removed rule AUNZ-R-003
 
 ### Version 1.0.0 `18/10/2019`
-No release notes availble
+No release notes available
