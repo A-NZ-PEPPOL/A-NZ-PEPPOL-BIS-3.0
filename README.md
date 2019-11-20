@@ -9,3 +9,22 @@ Within this repository is a range of artefacts that will help PEPPOL Service Pro
 Please do not hesitate to get in touch if you have any feedback on ways we can improve this repository.
 * The New Zealand PEPPOL Authority - [support@nzpeppol.govt.nz](mailto:support@nzpeppol.govt.nz)
 * The Australian Taxation Office - [e-invoicing@ato.gov.au](mailto:e-invoicing@ato.gov.au)
+
+
+## Release notes
+
+### Version 1.0.1 `20/11/2019`
+
+**Aligns to the Peppol `BIS 3.0.3` November 2019 release.**
+
+
+Release include:
+* AUNZ rule numbers should be 3 digit: e.g. AUNZ-R-XXX
+* Five rules (UBL-SR group) have been changed to GST from VAT.
+* BuyerCountry and SupplierCountry parameter fixed (affecting a list of rules for ABN and NZBN checking)
+* Fixed error message (with wrong customizationID)
+* Fixed right single quotation marks in a few error message texts that may cause encoding issue.
+* Removed rule AUNZ-R-003
+
+### Version 1.0.0 `18/10/2019`
+No release notes availble
