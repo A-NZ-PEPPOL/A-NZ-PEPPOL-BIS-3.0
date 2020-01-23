@@ -4,7 +4,7 @@
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
 
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:selfbilling:international:aunz:3.0</cbc:CustomizationID>
-    <cbc:ProfileID> urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+    <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:selfbilling:01:1.0</cbc:ProfileID>
 
     <cbc:ID>Snippet1</cbc:ID>
     <cbc:IssueDate>2019-07-29</cbc:IssueDate>
