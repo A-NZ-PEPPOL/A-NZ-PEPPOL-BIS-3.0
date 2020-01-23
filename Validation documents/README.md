@@ -6,10 +6,14 @@ The AUNZ Validation Artefacts are based on two validation artefacts:
 * European Norm validation artefacts v1.2.3 https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.2.3 
 * PEPPOL electronic invoice Spring Release https://github.com/OpenPEPPOL/peppol-bis-invoice-3/releases/tag/3.0.4
 
+# Release Notes
+    
+* Correction of the profile identifier in AUNZ-PEPPOL-SB-validation
+
 # Latest release
 
-* Initial release 1.0.1 
-
+* Release 1.0.2 (January 2020)
+ 
 There are three validation artefacts that should be applied to validate an AUNZ electronic invoice instance:
 
 * AUNZ-UBL-validation.sch adapts the EN16931 business rules to the Australian - New Zealand requirements. It should be applied to any invoice, credit note or selfbilled invoice.
@@ -21,7 +25,8 @@ There are three validation artefacts that should be applied to validate an AUNZ 
 To validate the syntax, the UBL 2.1 schema shall be used:
 * `ubl` - UBL 2.1 (ISO/IEC 19845:2015) 
   * UBL Website: https://www.oasis-open.org/committees/ubl/
-  
+
+   
 # Validation process
 
 In order to validate a document instance, the following process should be used:
