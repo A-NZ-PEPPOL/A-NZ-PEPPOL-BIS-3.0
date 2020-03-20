@@ -61,7 +61,7 @@
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyTaxScheme>
-                <cbc:CompanyID>88-888-888</cbc:CompanyID>
+                <cbc:CompanyID>888-888-888</cbc:CompanyID>
                 <cac:TaxScheme>
                     <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
@@ -125,7 +125,7 @@
        </cac:PartyName>
        <cac:PartyLegalEntity>
            <cbc:CompanyID schemeID="0088">9429033591476</cbc:CompanyID>
-       </cac:PartyLegalEntity>    
+       </cac:PartyLegalEntity>
     </cac:PayeeParty>
 
     <cac:TaxRepresentativeParty>
@@ -150,7 +150,7 @@
                 <cac:TaxScheme>
                     <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
-            </cac:PartyTaxScheme> 
+            </cac:PartyTaxScheme>
     </cac:TaxRepresentativeParty>
 
 
@@ -240,7 +240,7 @@
         <cbc:PrepaidAmount currencyID="NZD">0.00</cbc:PrepaidAmount>
         <cbc:PayableAmount currencyID="NZD">1710.51</cbc:PayableAmount>
     </cac:LegalMonetaryTotal>
- 
+
 
     <cac:InvoiceLine>
        <cbc:ID>1</cbc:ID>
@@ -249,15 +249,15 @@
        <cbc:LineExtensionAmount currencyID= "NZD">299.90</cbc:LineExtensionAmount>
            <cbc:AccountingCost>Consulting Fees</cbc:AccountingCost>
            <cac:InvoicePeriod>
-           <cbc:StartDate>2019-06-01</cbc:StartDate> 
-           <cbc:EndDate>2019-07-30</cbc:EndDate> 
+           <cbc:StartDate>2019-06-01</cbc:StartDate>
+           <cbc:EndDate>2019-07-30</cbc:EndDate>
        </cac:InvoicePeriod>
        <cac:OrderLineReference>
             <cbc:LineID>123</cbc:LineID>
        </cac:OrderLineReference>
        <cac:DocumentReference>
             <cbc:ID schemeID="HWB">9000074677</cbc:ID>
-            <cbc:DocumentTypeCode>130</cbc:DocumentTypeCode> 
+            <cbc:DocumentTypeCode>130</cbc:DocumentTypeCode>
        </cac:DocumentReference>
 
     <cac:Item>
@@ -346,15 +346,15 @@
        <cbc:LineExtensionAmount currencyID= "NZD">187.50</cbc:LineExtensionAmount>
            <cbc:AccountingCost>Consulting Fees</cbc:AccountingCost>
            <cac:InvoicePeriod>
-           <cbc:StartDate>2019-06-01</cbc:StartDate> 
-           <cbc:EndDate>2019-07-30</cbc:EndDate> 
+           <cbc:StartDate>2019-06-01</cbc:StartDate>
+           <cbc:EndDate>2019-07-30</cbc:EndDate>
        </cac:InvoicePeriod>
        <cac:OrderLineReference>
             <cbc:LineID>123</cbc:LineID>
        </cac:OrderLineReference>
        <cac:DocumentReference>
             <cbc:ID schemeID="HWB">9000074677</cbc:ID>
-            <cbc:DocumentTypeCode>130</cbc:DocumentTypeCode> 
+            <cbc:DocumentTypeCode>130</cbc:DocumentTypeCode>
        </cac:DocumentReference>
 
     <cac:Item>
