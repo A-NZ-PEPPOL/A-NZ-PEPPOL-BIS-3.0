@@ -13,6 +13,22 @@ Please do not hesitate to get in touch if you have any feedback on ways we can i
 
 ## Release notes
 
+### Version 1.0.3-alpha `unreleased`
+
+
+Includes:
+* Updated message example files
+* More updates to come
+
+### Version 1.0.2 `20/03/2020`
+
+
+Release includes:
+* Data element AccountingCustomerParty/Party/PartyTaxScheme/CompanyID to be New Zealand GST number rather than NZBN
+* Clarification included on the use of business identifier vs. GST identifier for PartyTaxScheme/CompanyID within AccountingSupplierParty and TaxRepresentativeParty groups
+* Minor corrections to rule references in the syntax table
+
+
 ### Version 1.0.1 `20/11/2019`
 
 **Aligns to the Peppol `BIS 3.0.3` November 2019 release.**
