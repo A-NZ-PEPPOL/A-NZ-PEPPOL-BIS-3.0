@@ -2,8 +2,7 @@
 <CreditNote xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2">
-    <cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0</cbc:CustomizationID>
-
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0</cbc:CustomizationID>                       
     <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
     <cbc:ID>Snippet1</cbc:ID>
     <cbc:IssueDate>2019-07-29</cbc:IssueDate>
@@ -64,7 +63,7 @@
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyTaxScheme>
-                <cbc:CompanyID>9429033821733</cbc:CompanyID>
+                <cbc:CompanyID>888-888-888</cbc:CompanyID>
                 <cac:TaxScheme>
                     <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
@@ -102,7 +101,7 @@
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyTaxScheme>
-                <cbc:CompanyID>9429033591476</cbc:CompanyID>
+                <cbc:CompanyID>999-999-999</cbc:CompanyID>
                 <cac:TaxScheme>
                     <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
@@ -150,7 +149,7 @@
            </cac:Country>
       </cac:PostalAddress>
            <cac:PartyTaxScheme>
-                <cbc:CompanyID>9429033591476</cbc:CompanyID>
+                <cbc:CompanyID>777-777-777</cbc:CompanyID>
                 <cac:TaxScheme>
                     <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
