@@ -8,12 +8,30 @@ The AUNZ Validation Artefacts are based on two validation artefacts:
 
 # Release Notes
     
-* Correction of the profile identifier in AUNZ-PEPPOL-SB-validation
-
-# Latest release
-
+* Release 1.0.3 (15 May 2020)
+  - New rules: BR-66, BR-67, UBL-CR-673, UBL-CR-674, UBL-CR-675, UBL-CR-676, UBL-CR-677, UBL-CR-678 and UBL-CR-679 
+  - New rules: PEPPOL-COMMON-R041 and PEPPOL-COMMON-R042 (algorithm check for Norwegian and Danish organisation numbers)
+  - Updated BR-CL-14 and BR-CL-15 to reflect updated country code list 3166
+  - Updated BR-CL-16 to reflect updated payment means code list 4461
+  - Bug fix for BR-17
+  - Updated severity from 'warning' to 'fatal' for UBL-CR-666 
+  - Updated error message for PEPPOL-EN16931-R044
+  - Removed rule BR-S-08 to support decimals in tax rate
+  - Removed BR-CL-08 which is related to EN and does not improve automation for A-NZ. 
+  - Updated BR-CL-25 with additional codes, which is however further restricted by PEPPOL-EN16931-CL008. Schematron update only and no impact on effective business use of EAS codes.
+ 
 * Release 1.0.2 (January 2020)
  
+* Correction of the profile identifier in AUNZ-PEPPOL-SB-validation
+
+* Release 1.0.1 (November 2019)
+ 
+**Aligns with the Peppol `BIS 3.0.5` November 2019 release.**
+
+* Release 1.0.0 (October 2019)
+ 
+**Initial release.**
+
 There are three validation artefacts that should be applied to validate an AUNZ electronic invoice instance:
 
 * AUNZ-UBL-validation.sch adapts the EN16931 business rules to the Australian - New Zealand requirements. It should be applied to any invoice, credit note or selfbilled invoice.
