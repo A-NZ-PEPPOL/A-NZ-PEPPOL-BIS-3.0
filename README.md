@@ -13,12 +13,20 @@ Please do not hesitate to get in touch if you have any feedback on ways we can i
 
 ## Release notes
 
-### Version 1.0.3-alpha `unreleased`
+### Version 1.0.3 `15/05/2020`
+
+**Aligns with the Peppol `BIS Billing 3.0.6` May 2020 release.**
 
 
-Includes:
+Release includes:
+* Updated specification documents and validation artefacts with bug fixes, editorial corrections and the following minor enhancements:
+  - Two new business rules relating to Payment Means
+  - Two new business rules relating to Norwegian and Danish organisation number formats (from BIS Billing Nov 2019 release)
+  - Two 'fatal' business rules related to Additional Document Reference (one new, one previously a warning)
+  - Removal of an irrelevant rule relating to subject codes within the invoice level Note
+  - Support for additional codes in UNCL4451 note subject code and ISO 3166-1:Alpha2 Country code
+* Refer to Validation documents [README.md]( https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/blob/master/Validation%20documents/README.md) for further details
 * Updated message example files
-* More updates to come
 
 ### Version 1.0.2 `20/03/2020`
 
@@ -31,10 +39,10 @@ Release includes:
 
 ### Version 1.0.1 `20/11/2019`
 
-**Aligns to the Peppol `BIS 3.0.3` November 2019 release.**
+**Aligns with the Peppol `BIS 3.0.5` November 2019 release.**
 
 
-Release include:
+Release includes:
 * AUNZ rule numbers should be 3 digit: e.g. AUNZ-R-XXX
 * Five rules (UBL-SR group) have been changed to GST from VAT.
 * BuyerCountry and SupplierCountry parameter fixed (affecting a list of rules for ABN and NZBN checking)
@@ -44,3 +52,4 @@ Release include:
 
 ### Version 1.0.0 `18/10/2019`
 No release notes available
+
