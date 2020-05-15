@@ -51,6 +51,6 @@ In order to validate a document instance, the following process should be used:
 
 * Use the UBL Invoice.xsd or the UBL CreditNote.xsd version 2.1 for schema validation depending on the document type
 * Validate the syntax boundaries and the derived EN16931 business rules using the AUNZ-UBL-validation.sch
-* Validate PEPPOL rules and specific AUNZ business rules using the AUNZ-PEPPOL-validation.sch or AUNZ-PEPPOL-SB-validation.sch depending on the type of instance
+* Validate PEPPOL rules and specific AUNZ business rules using the AUNZ-PEPPOL-validation.sch or AUNZ-PEPPOL-SB-validation.sch depending on the type of instance 
 
 This repository contains an xslt folder with the xslt artefacts compiled from the schematron validation artefacts. Any of them can be used for validation of an AUNZ electronic invoice.
