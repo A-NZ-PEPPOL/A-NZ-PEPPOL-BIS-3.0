@@ -200,7 +200,7 @@
 		</rule>
 		<!-- Allowance (price level) -->
 		<rule context="cac:Price/cac:AllowanceCharge">
-			<assert id="PEPPOL-EN16931-R044" test="normalize-space(cbc:ChargeIndicator) = 'false'" flag="fatal">Charge on price level is NOT allowed.</assert>
+			<assert id="PEPPOL-EN16931-R044" test="normalize-space(cbc:ChargeIndicator) = 'false'" flag="fatal">Charge on price level is NOT allowed. Only value 'false' allowed.</assert>
 			<assert id="PEPPOL-EN16931-R046" test="not(cbc:BaseAmount) or xs:decimal(../cbc:PriceAmount) = xs:decimal(cbc:BaseAmount) - xs:decimal(cbc:Amount)" flag="fatal">Item net price MUST equal (Gross price - Allowance amount) when gross price is provided.</assert>
 		</rule>
 		<!-- Price -->
@@ -218,6 +218,16 @@
 			<assert id="PEPPOL-COMMON-R040"
 					test="matches(normalize-space(), '^[0-9]+$') and u:gln(normalize-space())"
 					flag="warning">GLN must have a valid format according to GS1 rules.</assert>
+		</rule>
+		<rule context="cbc:EndpointID[@schemeID = '0192'] | cac:PartyIdentification/cbc:ID[@schemeID = '0192'] | cbc:CompanyID[@schemeID = '0192']">
+			<assert id="PEPPOL-COMMON-R041"
+				test="matches(normalize-space(), '^[0-9]{9}$') and u:mod11(normalize-space())"
+				flag="fatal">Norwegian organization number MUST be stated in the correct format.</assert>
+		</rule>
+		<rule context="cbc:EndpointID[@schemeID = '0184'] | cac:PartyIdentification/cbc:ID[@schemeID = '0184'] | cbc:CompanyID[@schemeID = '0184']">
+			<assert id="PEPPOL-COMMON-R042"
+				test="(string-length(text()) = 10) and (substring(text(), 1, 2) = 'DK') and (string-length(translate(substring(text(), 3, 8), '1234567890', '')) = 0)"
+				flag="fatal">Danish organization number (CVR) MUST be stated in the correct format.</assert>
 		</rule>
 	</pattern>
 	<!-- National rules -->
