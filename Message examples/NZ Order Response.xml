@@ -12,7 +12,7 @@
 	<cbc:OrderResponseCode>AP</cbc:OrderResponseCode>
 	<cbc:Note>Response message with amendments in the details</cbc:Note>
 	<cbc:DocumentCurrencyCode>NZD</cbc:DocumentCurrencyCode>
-	<cbc:CustomerReference>ABC-1234</cbc:CustomerReference>
+	<cbc:CustomerReference>ABC-123</cbc:CustomerReference>
 	<cac:OrderReference>
 		<cbc:ID>11233</cbc:ID>
 	</cac:OrderReference>

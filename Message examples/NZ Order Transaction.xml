@@ -17,7 +17,7 @@
 		<cbc:EndDate>2020-01-31</cbc:EndDate>
 	</cac:ValidityPeriod>
 	<cac:QuotationDocumentReference>
-		<cbc:ID>QuoteID123</cbc:ID>
+		<cbc:ID>QuoteID1234</cbc:ID>
 	</cac:QuotationDocumentReference>
 	<cac:OrderDocumentReference>
 		<cbc:ID>RjectedOrderID123</cbc:ID>

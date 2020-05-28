@@ -16,7 +16,7 @@ Punch Out: Spring 2020 release compliant
 		<cbc:EndTime>18:00:00</cbc:EndTime>		
 	</cac:ValidityPeriod>					
 	<cac:ReferencedContract>					
-		<cbc:ID>REF1234</cbc:ID>				
+		<cbc:ID>REF12345</cbc:ID>				
 	</cac:ReferencedContract>					
 	<cac:ProviderParty>					
 		<cbc:EndpointID schemeID="0088">9429033821733</cbc:EndpointID>				

@@ -8,7 +8,7 @@
 	<cbc:SalesOrderID>101-111</cbc:SalesOrderID>
 	<cbc:IssueDate>2020-07-01</cbc:IssueDate>
 	<cbc:IssueTime>06:10:10</cbc:IssueTime>
-	<cbc:Note>We have a new phone number 021-1090447</cbc:Note>
+	<cbc:Note>We have a new phone number 021-1090448</cbc:Note>
 	<cbc:DocumentCurrencyCode>NZD</cbc:DocumentCurrencyCode>
 	<cbc:CustomerReference>ABC-123</cbc:CustomerReference>
 	<cac:OrderReference>

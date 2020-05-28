@@ -10,7 +10,7 @@ Despatch Advice: Spring 2020 release compliant
 	<cbc:IssueTime>12:00:00</cbc:IssueTime>
 	<cbc:Note>sample</cbc:Note>
 	<cac:OrderReference>
-		<cbc:ID>AEG0123456</cbc:ID>
+		<cbc:ID>AEG012345</cbc:ID>
 	</cac:OrderReference>
 	<cac:DespatchSupplierParty>
 		<cac:Party>
