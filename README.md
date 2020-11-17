@@ -13,6 +13,19 @@ Please do not hesitate to get in touch if you have any feedback on ways we can i
 
 ## Release notes
 
+### Version 1.0.4 `17/11/2020`
+
+**Aligns with the Peppol `BIS 3.0.8` November 2020 release.**
+
+
+Release includes:
+* Incorporated changes listed in the BIS Billing 3.0 updates for version 3.0.7 (hotfix in June 2020) and 3.0.8 (November 2020) where applicable, including updated EAS and ICD code lists, and minor correction to the ISO currency code list.   Peppol release notes can be found at: https://docs.peppol.eu/poacc/billing/3.0/release-notes/
+* Incorporated updates relating to CEF issues 206, 213, 215, 217, 219, 220, 224, 225, 230, 237. 
+These include: 
+* New rules: BR-CL-26, UBL-CR-680
+* Updated UBL-CR-295, BR-CO-19, BR-E-05, UBL-CR-673, and UBL-CR-412.
+
+
 ### Version 1.0.3 `15/05/2020`
 
 **Aligns with the Peppol `BIS Billing 3.0.6` May 2020 release.**
