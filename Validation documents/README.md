@@ -7,7 +7,15 @@ The AUNZ Validation Artefacts are based on two validation artefacts:
 * PEPPOL electronic invoice Spring Release https://github.com/OpenPEPPOL/peppol-bis-invoice-3/releases/tag/3.0.4
 
 # Release Notes
-    
+   
+* Release 1.0.4 (17 November 2020)
+  
+  - Incorporated changes listed in the BIS Billing 3.0 updates for version 3.0.7 (hotfix in June 2020) and 3.0.8 (November 2020) where applicable, including updated EAS and ICD code lists, and minor correction to the ISO currency code list.   Peppol release notes can be found at: https://docs.peppol.eu/poacc/billing/3.0/release-notes/
+  - Incorporated updates relating to CEF issues 206, 213, 215, 217, 219, 220, 224, 225, 230, 237. 
+These include: 
+- New rules: BR-CL-26, UBL-CR-680
+- Updated UBL-CR-295, BR-CO-19, BR-E-05, UBL-CR-673, and UBL-CR-412.
+   
 * Release 1.0.3 (15 May 2020)
   - New rules: BR-66, BR-67, UBL-CR-673, UBL-CR-674, UBL-CR-675, UBL-CR-676, UBL-CR-677, UBL-CR-678 and UBL-CR-679 
   - New rules: PEPPOL-COMMON-R041 and PEPPOL-COMMON-R042 (algorithm check for Norwegian and Danish organisation numbers)
