@@ -23,7 +23,7 @@ Release includes:
 * Incorporated updates relating to CEF issues 206, 213, 215, 217, 219, 220, 224, 225, 230, 237. 
 
 These include: 
-* New rules: BR-CL-26, UBL-CR-680
+* New rules: BR-CL-26, UBL-CR-680.
 * Updated UBL-CR-295, BR-CO-19, BR-E-05, UBL-CR-673, and UBL-CR-412.
 
 
