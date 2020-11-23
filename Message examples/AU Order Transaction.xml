@@ -252,7 +252,7 @@
 				<cbc:BaseAmount currencyID="AUD">500</cbc:BaseAmount>
 			</cac:AllowanceCharge>
 			<cac:Price>
-				<cbc:PriceAmount currencyID="AUD">5.000</cbc:PriceAmount>
+				<cbc:PriceAmount currencyID="AUD">5.0000</cbc:PriceAmount>
 				<cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
 			</cac:Price>
 			<cac:Item>
