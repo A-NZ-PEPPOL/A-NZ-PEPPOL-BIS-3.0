@@ -19,7 +19,6 @@
     <cac:InvoicePeriod>
        <cbc:StartDate>2019-06-01</cbc:StartDate>
        <cbc:EndDate>2019-07-30</cbc:EndDate>
-       <cbc:DescriptionCode>432</cbc:DescriptionCode>
     </cac:InvoicePeriod>
        <cac:OrderReference>
        <cbc:ID>PurchaseOrderReference</cbc:ID>
@@ -28,7 +27,7 @@
     <cac:BillingReference>
        <cac:InvoiceDocumentReference>
            <cbc:ID>PrecedingInvoiceReference</cbc:ID>
-           <cbc:IssueDate>2019-07-30</cbc:IssueDate>
+           <cbc:IssueDate>2019-05-30</cbc:IssueDate>
        </cac:InvoiceDocumentReference>
     </cac:BillingReference>
     <cac:DespatchDocumentReference>
@@ -147,7 +146,7 @@
 
 
     <cac:Delivery>
-        <cbc:ActualDeliveryDate>2019-06-01</cbc:ActualDeliveryDate>
+        <cbc:ActualDeliveryDate>2019-06-15</cbc:ActualDeliveryDate>
         <cac:DeliveryLocation>
             <cbc:ID schemeID="0002">9483759475923</cbc:ID>
             <cac:Address>
