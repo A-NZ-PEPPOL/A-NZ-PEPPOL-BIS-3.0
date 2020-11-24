@@ -16,11 +16,11 @@
     <cbc:DocumentCurrencyCode>NZD</cbc:DocumentCurrencyCode>
     <cbc:AccountingCost>4025:123:4343</cbc:AccountingCost>
     <cbc:BuyerReference>0150abc</cbc:BuyerReference>
-    <cac:InvoicePeriod>
+    <!--cac:InvoicePeriod>
        <cbc:StartDate>2019-06-01</cbc:StartDate>
        <cbc:EndDate>2019-07-30</cbc:EndDate>
        <cbc:DescriptionCode>432</cbc:DescriptionCode>
-    </cac:InvoicePeriod>
+    </cac:InvoicePeriod-->
        <cac:OrderReference>
        <cbc:ID>SOMEBLERB</cbc:ID>
     <cbc:SalesOrderID>12345678</cbc:SalesOrderID>
