@@ -8,15 +8,15 @@
                 
                 Warnings:
                 None
-				(Peppol 2020 Spring release)
+				(Peppol 2020 November release)
 -->
 <DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
 	<cbc:CustomizationID>urn:fdc:peppol.eu:poacc:trns:despatch_advice:3</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:poacc:bis:despatch_advice:3</cbc:ProfileID>
 	<cbc:ID>565899</cbc:ID>
-	<cbc:IssueDate>2020-01-01</cbc:IssueDate>
+	<cbc:IssueDate>2020-03-01</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00</cbc:IssueTime>
-	<cbc:Note>sample file</cbc:Note>
+	<cbc:Note>This is a sample Despatch Notice</cbc:Note>
 	<cac:OrderReference>
 		<cbc:ID>AEG012345</cbc:ID>
 	</cac:OrderReference>
@@ -64,7 +64,7 @@
 					<cbc:Line>3rd Floor</cbc:Line>
 				</cac:AddressLine>
 				<cac:Country>
-					<cbc:IdentificationCode>GB</cbc:IdentificationCode>
+					<cbc:IdentificationCode>AU</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyLegalEntity>
@@ -80,7 +80,7 @@
 	<cac:BuyerCustomerParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0151">26008672179</cbc:ID>
+				<cbc:ID schemeID="0151">51824753556</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
 				<cbc:Name>The Australian Taxation Office</cbc:Name>
@@ -112,7 +112,7 @@
 				<cbc:PostalZone>2000 postcode</cbc:PostalZone>
 				<cbc:CountrySubentity>Region</cbc:CountrySubentity>
 				<cac:Country>
-					<cbc:IdentificationCode>GB</cbc:IdentificationCode>
+					<cbc:IdentificationCode>AU</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 		</cac:Party>
@@ -128,7 +128,7 @@
 			<cbc:Information>text</cbc:Information>
 			<cac:CarrierParty>
 				<cac:PartyName>
-					<cbc:Name>Joe Blogs</cbc:Name>
+					<cbc:Name>Rapid Delivery Pty Ltd</cbc:Name>
 				</cac:PartyName>
 				<cac:Person>
 					<cac:IdentityDocumentReference>
@@ -141,13 +141,13 @@
 		<cac:Delivery>
 			<cbc:TrackingID>456789</cbc:TrackingID>
 			<cac:EstimatedDeliveryPeriod>
-				<cbc:StartDate>2020-05-31</cbc:StartDate>
+				<cbc:StartDate>2020-03-15</cbc:StartDate>
 				<cbc:StartTime>12:00:00</cbc:StartTime>
-				<cbc:EndDate>2020-06-15</cbc:EndDate>
+				<cbc:EndDate>2020-03-30</cbc:EndDate>
 				<cbc:EndTime>12:00:00</cbc:EndTime>
 			</cac:EstimatedDeliveryPeriod>
 			<cac:Despatch>
-				<cbc:ActualDespatchDate>2020-05-30</cbc:ActualDespatchDate>
+				<cbc:ActualDespatchDate>2020-03-02</cbc:ActualDespatchDate>
 				<cbc:ActualDespatchTime>13:00:00</cbc:ActualDespatchTime>
 				<cac:DespatchAddress>
 					<cbc:StreetName>street name</cbc:StreetName>
