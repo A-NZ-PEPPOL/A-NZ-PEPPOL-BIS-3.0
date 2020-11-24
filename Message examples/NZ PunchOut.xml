@@ -63,11 +63,11 @@ Punch Out: Spring 2020 release compliant
 			</cac:ApplicableTerritoryAddress>			
 			<cac:Price>			
 				<cbc:PriceAmount currencyID="NZD">10.00</cbc:PriceAmount>		
-				<cbc:BaseQuantity unitCode="C62">2</cbc:BaseQuantity>		
+				<cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>		
 				<cbc:PriceType>AAA</cbc:PriceType>		
 			</cac:Price>			
 			<cac:DeliveryUnit>			
-				<cbc:BatchQuantity unitCode="C62">10</cbc:BatchQuantity>		
+				<cbc:BatchQuantity unitCode="C62">1</cbc:BatchQuantity>		
 			</cac:DeliveryUnit>			
 		</cac:RequiredItemLocationQuantity>				
 		<cac:Item>				
@@ -169,4 +169,4 @@ Punch Out: Spring 2020 release compliant
 			</cac:AdditionalItemProperty>			
 		</cac:Item>				
 	</cac:CatalogueLine>					
-</Catalogue>						
+</Catalogue>
