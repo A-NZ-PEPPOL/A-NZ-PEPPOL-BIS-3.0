@@ -5,11 +5,11 @@
 			   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
 	<cbc:CustomizationID>urn:fdc:peppol.eu:poacc:trns:order_response:3</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:poacc:bis:ordering:3</cbc:ProfileID>
-	<cbc:ID>101</cbc:ID>
+	<cbc:ID>OrderResponse01</cbc:ID>
 	<cbc:SalesOrderID>101-111</cbc:SalesOrderID>
-	<cbc:IssueDate>2020-01-01</cbc:IssueDate>
+	<cbc:IssueDate>2020-03-01</cbc:IssueDate>
 	<cbc:IssueTime>06:10:10</cbc:IssueTime>
-	<cbc:OrderResponseCode>AP</cbc:OrderResponseCode>
+	<cbc:OrderResponseCode>CA</cbc:OrderResponseCode>
 	<cbc:Note>Response message with amendments in the details</cbc:Note>
 	<cbc:DocumentCurrencyCode>NZD</cbc:DocumentCurrencyCode>
 	<cbc:CustomerReference>ABC-123</cbc:CustomerReference>
