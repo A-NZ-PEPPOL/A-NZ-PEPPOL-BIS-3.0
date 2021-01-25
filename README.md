@@ -13,7 +13,7 @@ Please do not hesitate to get in touch if you have any feedback on ways we can i
 
 ## Release notes
 
-### Version 1.0.4 `17/11/2020`
+### Version 1.0.4 `17/11/2020`. Operative from 07/12/2020.
 
 **Aligns with the Peppol `BIS 3.0.8` November 2020 release.**
 
