@@ -1,9 +1,22 @@
 # A-NZ PEPPOL BIS 3.0
 Within this repository is a range of artefacts that will help PEPPOL Service Providers implement and adopt the Australia-New Zealand extension of the PEPPOL BIS 3.0 Specification.
+
 ## What's inside
 * [A-NZ PEPPOL BIS 3.0 Specifications](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications)
 * [A-NZ Schematron validation document](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Validation%20documents)
 * [A-NZ Specification XML message examples](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Message%20examples)
+
+## Other Procure to Pay documents supported by Peppol
+Peppol supports a suite of e-procurement business documents that can be used in Australia and New Zealand including:
+* Catalogue (and Catalogue Response): enables the automated exchange of catalogue information including the seller providing a new, updated or deleted catalogue, and the buyer advising whether the information (new or updates) is accepted in the buyers’ ERP system.
+* Punch Out: enables integration between the seller’s web catalogue and buyer’s procurement system to create a product or service list for the buyer, which can later be used as the basis for an order or item comparison list.
+* Order (and Order Response): enables order automation in line with catalogue and invoice. A buyer creates an order and the seller either accepts the order, accepts the order with changes or rejects the order and responds with the required information. Invoices containing an order reference can be matched automatically. 
+* Despatch Advice: enables communication between Seller and Consignee regarding transport details including packing and delivery, ordering details including what was sent, quantitiy of goods sent and items outstanding, and receiving goods including delivery time and address details.
+* Invoice Response: enables status notification for an invoice or credit note, e.g. an invoice is accepted, being processed, rejected, or under query. Specific message responses improve the efficiency for both parties to address exceptions.	
+
+## Notes
+Please note there is currently an issue with BR-CO-19 as per CEF #219. We have lodged a JIRA request to clarify whether this issue will be resolved soon. We will provide an update on this issue once we have more information.
+Update as of 18/02/2021.
 
 ## Feedback
 Please do not hesitate to get in touch if you have any feedback on ways we can improve this repository.
