@@ -55,7 +55,7 @@ There are three validation artefacts that should be applied to validate an AUNZ 
 
 To validate the syntax, the UBL 2.1 schema shall be used:
 * `ubl` - UBL 2.1 (ISO/IEC 19845:2015) 
-  * UBL Website: https://www.oasis-open.org/committees/ubl/
+  * [UBL Website](https://www.oasis-open.org/committees/ubl/)
 
    
 # Validation process
