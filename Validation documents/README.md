@@ -6,6 +6,10 @@ The AUNZ Validation Artefacts are based on two validation artefacts:
 * European Norm validation artefacts v1.3.3 https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.3
 * PEPPOL electronic invoice November release https://github.com/OpenPEPPOL/peppol-bis-invoice-3/releases/tag/3.0.8
 
+# Notes
+
+Please note there is currently an issue with BR-CO-19 as per [CEF#219](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/219). We have lodged a JIRA request to clarify whether this issue will be resolved soon. We will provide an update on this issue once we have more information. Update as of 18/02/2021.
+
 # Release Notes
    
 * Release 1.0.4 (17 November 2020)
