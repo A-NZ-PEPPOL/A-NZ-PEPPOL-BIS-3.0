@@ -14,11 +14,7 @@ Peppol supports a suite of e-procurement business documents that can be used in 
 * Despatch Advice: enables communication between Seller and Consignee regarding transport details including packing and delivery, ordering details including what was sent, quantitiy of goods sent and items outstanding, and receiving goods including delivery time and address details.
 * Invoice Response: enables status notification for an invoice or credit note, e.g. an invoice is accepted, being processed, rejected, or under query. Specific message responses improve the efficiency for both parties to address exceptions.	
 
-Procure to Pay documents are available here https://docs.peppol.eu/poacc/upgrade-3/
-
-## Notes
-Please note there is currently an issue with BR-CO-19 as per CEF #219. We have lodged a JIRA request to clarify whether this issue will be resolved soon. We will provide an update on this issue once we have more information.
-Update as of 18/02/2021.
+The Peppol specifications and technical artefacts are available here https://docs.peppol.eu/poacc/upgrade-3/
 
 ## Feedback
 Please do not hesitate to get in touch if you have any feedback on ways we can improve this repository.
