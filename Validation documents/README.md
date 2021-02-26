@@ -8,7 +8,9 @@ The AUNZ Validation Artefacts are based on two validation artefacts:
 
 # Notes
 
-Please note there is currently an issue with BR-CO-19 as per [CEF#219](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/219). We have lodged a JIRA request to clarify whether this issue will be resolved soon. We will provide an update on this issue once we have more information. Update as of 18/02/2021.
+Please note there is currently an issue with BR-CO-19 as per [CEF#219](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/219). We have lodged a JIRA request to clarify this issue. OPENPeppol has responded advising that this correction is planned to be adopted in the May2021 release. 
+
+Notes updated on 26/02/21 
 
 # Release Notes
    
