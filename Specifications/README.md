@@ -1,4 +1,4 @@
-**Specification release process**
+# **Specification release process**
 
 **Peppol Business Interoperability Specifications (BIS)**
 –	Peppol standards for business processes and transactions are updated biannually in May and November.
