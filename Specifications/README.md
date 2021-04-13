@@ -1,8 +1,11 @@
-# **Specification release process**
+## **Specification release process**
 
 **Peppol Business Interoperability Specifications (BIS)**
+
 –	Peppol standards for business processes and transactions are updated biannually in May and November.
+
 –	Releases typically contain minor corrections and/or enhancements proposed by Peppol members (service providers or Peppol Authorities).
+
 –	The specifications provide message syntax, business rules, code lists and implementation guidance, and are supported by centrally-maintained validation artefacts to assist service providers to implement services that comply with the standards.
 
 **A-NZ e-invoicing**
