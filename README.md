@@ -4,8 +4,8 @@ Within this repository is a range of artefacts that will help Peppol Service Pro
 No localised versions of other Procure to Pay (P2P) specifications are required. See Procure to Pay section below for further details.
 
 ## What's inside
-* [A-NZ PEPPOL BIS 3.0 Specifications](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications)
-* [A-NZ Schematron validation document](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Validation%20documents)
+* [A-NZ Peppol BIS 3.0 Specifications](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications)
+* [A-NZ Schematron validation documents](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Validation%20documents)
 * [A-NZ Specification XML message examples](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Message%20examples)
 
 ## Specification and Schematron release process
@@ -24,7 +24,9 @@ In the rare event of potentially significant changes being to BIS Billing made a
 
 The Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/release-notes/).
 
-Peppol standards for business processes and transactions are updated biannually in May and November. Releases typically contain minor corrections and/or enhancements proposed by Peppol members (service providers or Peppol Authorities). Key dates for Peppol releases are available [here](https://peppol.eu/downloads/post-award/). 
+Peppol standards for business processes and transactions are updated biannually in May and November. Releases typically contain minor corrections and/or enhancements proposed by Peppol members (service providers or Peppol Authorities). 
+
+Key dates for Peppol releases are available [here](https://peppol.eu/downloads/post-award/). 
 
 The specifications provide message syntax, business rules, code lists and implementation guidance, and are supported by centrally maintained validation artefacts to assist service providers to implement services that comply with the standards.
 
@@ -52,6 +54,6 @@ The Peppol specifications and technical artefacts are available [here](https://d
 ## Feedback
 If you have any questions or feedback, please contact your relevant Peppol authority:
 
-* The New Zealand PEPPOL Authority - [support@nzpeppol.govt.nz](mailto:support@nzpeppol.govt.nz)
-* The Australian Taxation Office - [e-invoicing@ato.gov.au](mailto:e-invoicing@ato.gov.au)
+* The New Zealand Peppol Authority - [support@nzpeppol.govt.nz](mailto:support@nzpeppol.govt.nz)
+* The Australian Peppol Authority - [e-invoicing@ato.gov.au](mailto:e-invoicing@ato.gov.au)
 
