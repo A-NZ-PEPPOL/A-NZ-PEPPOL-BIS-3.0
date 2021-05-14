@@ -13,7 +13,8 @@ Guidance notes related to specifications are available [here](https://github.com
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/release-notes/).
 
 ### May 2021 - Invoice and Self-Billing Specification v1.0.5 
-Release date 17/05/2021, Mandatory from 31/05/2021.
+Publication date 14 May 2021, Mandatory from 12:00PM AEST/2:00PM NZST 31 May 2021.
+
 Aligns with the Peppol BIS 3.0.10 May 2021 release.
 
 Release includes:
