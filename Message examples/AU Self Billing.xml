@@ -232,20 +232,14 @@
     <cac:Item>
         <cbc:Description>Widgets True and Fair</cbc:Description>
            <cbc:Name>True-Widgets</cbc:Name>
-           <cac:BuyersItemIdentification>
-              <cbc:ID>W659590</cbc:ID>
-           </cac:BuyersItemIdentification>
-           <cac:SellersItemIdentification>
-              <cbc:ID>WG546767</cbc:ID>
-           </cac:SellersItemIdentification>
            <cac:StandardItemIdentification>
-              <cbc:ID  schemeID="0001">WG546767</cbc:ID>
+              <cbc:ID  schemeID="0209">012345678905</cbc:ID>
            </cac:StandardItemIdentification>
             <cac:OriginCountry>
                 <cbc:IdentificationCode>AU</cbc:IdentificationCode>
             </cac:OriginCountry>
             <cac:CommodityClassification>
-                <cbc:ItemClassificationCode listID="SRV">09348023</cbc:ItemClassificationCode>
+                <cbc:ItemClassificationCode listID="SRV">012345678905</cbc:ItemClassificationCode>
             </cac:CommodityClassification>
             <cac:ClassifiedTaxCategory>
                 <cbc:ID>S</cbc:ID>
