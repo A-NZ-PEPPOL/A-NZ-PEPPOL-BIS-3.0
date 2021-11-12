@@ -12,6 +12,26 @@ Guidance notes related to specifications are available [here](https://github.com
 
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/release-notes/).
 
+### November 2021 - Invoice and Self-Billing Specification v1.0.6
+Publication date 15 November 2021, Mandatory from 12:00PM AEST/2:00PM NZST 29 November 2021.
+
+Aligns with the Peppol BIS 3.0.12 November 2021 release.
+
+Release includes:
+
+* Adopted changes as appropriate, as per [BIS Billing release 3.0.12]( https://docs.peppol.eu/poacc/billing/3.0/release-notes/#_version_3_0_12) and validation artefacts:
+
+  - Included six new rules PEPPOL-COMMON-R043 to PEPPOL-COMMON-R048 confirming the format of Belgium and Italian organisation identifiers. These have been implemented as Warnings in this release, and will become ‘fatal’ errors in the May 2021 release.
+
+  - Incorporated schematron updates relating to [CEF issues](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues?q=is%3Aissue+) 219, 234, 257, 286, 287, 293:
+    - Minor correction to BR-CO-19 to align with BIS Billing
+    - Include versioning in schematron validation artefacts
+    - BR-CO-15 schematron code changed (removed //) and UBL-SR-06
+    - Re-include the corrected UBL-SR-27 to prevent multiple PaymentMeansCodes within each PaymentMeans (multiple PaymentMeans continue to be allowed within the A-NZ specification)
+    - Minor corrections for the following UBL-CR-nnn rules: UBL-CR-022, UBL-CR-028, UBL-CR-051, UBL-CR-067, UBL-CR-084, UBL-CR-100, UBL-CR-115, UBL-CR-183, UBL-CR-247, UBL-CR-282, UBL-CR-358, UBL-CR-384, UBL-CR-414, UBL-CR-419, UBL-CR-512, UBL-CR-538, UBL-CR-572, UBL-CR-577, UBL-CR-583, UBL-CR-607, and UBL-CR-625 to UBL-CR-644
+* Added BT identifiers to syntax table.
+* Minor editorial updates.
+
 ### May 2021 - Invoice and Self-Billing Specification v1.0.5 
 Publication date 14 May 2021, Mandatory from 12:00PM AEST/2:00PM NZST 31 May 2021.
 
