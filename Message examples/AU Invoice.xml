@@ -18,7 +18,7 @@
     </cac:InvoicePeriod>
     <cac:OrderReference>
        <cbc:ID>PurchaseOrderReference</cbc:ID>
-		<cbc:SalesOrderID>12345678</cbc:SalesOrderID>
+       <cbc:SalesOrderID>12345678</cbc:SalesOrderID>
     </cac:OrderReference>
     <cac:BillingReference>
        <cac:InvoiceDocumentReference>
