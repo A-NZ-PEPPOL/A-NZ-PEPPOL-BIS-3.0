@@ -12,6 +12,38 @@ Guidance notes related to specifications are available [here](https://github.com
 
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/release-notes/).
 
+### May 2022 – Invoice and Self-Billing specification v1.0.7
+Effective date 30 May 2022, Mandatory from 12:00PM AEST/2:00PM NZST 27 June 2022.
+
+Aligns with the Peppol BIS 3.0.13 May 2022 release.
+
+Release includes:
+
+* Adopted changes as appropriate, as per [BIS Billing release 3.0.13]( https://docs.peppol.eu/poacc/billing/3.0/release-notes/#_version_3_0_13), code list and validation artefact updates:
+
+  -	New PEPPOL-COMMON-R050 rule to validate the format of ABNs, replacing A-NZ rule AUNZ-R-006. The severity of this rule is warning (consistent with AUNZ-R-006), expected to be updated to ‘fatal’ in the November 2022 release.
+Note - There is no change to the validation of NZBNs, which are GLNs and so are validated under Peppol rule PEPPOL-COMMON-R040.
+
+  -	Change PEPPOL-COMMON-R043 rule severity from ‘warning’ to ‘fatal’.
+  -	New PEPPOL-COMMON-R049 rule to validate the format of Swedish organization number. 
+    The severity of this rule is warning, expected to be updated to ‘fatal’ in the November 2022 release.
+  - New rules UBL-CR-681 and UBL-CR-682, both with ‘warning’ severity to check for elements PaymentMeans/InstructionNote and Delivery/DeliveryAddress.
+  - Change to PEPPOL-EN16931-R080 to apply rule to Credit Note only. 
+  - Change BR-51 from ‘fatal’ to ‘warning’.
+  - Corrections/improvements to warnings UBL-CR-414, UBL-CR-487, UBL-CR-512, UBL-CR-607, UBL-CR-665.
+
+  - New invoice type codes added (see [updated code list UNCL 1001](https://docs.peppol.eu/poacc/billing/3.0/codelist/UNCL1001-inv/)). Please note:
+    - A number of new codes are added to EN16931 (implemented through BR-CL-01). 
+      The available codes are restricted by PEPPOL-EN16931-P0100.
+      New codes supported are: 71, 102, 218, 219, 331, 382, 553, 817, 870, 875, 876, 877.
+      - The advice from Peppol indicates that code 388 will be supported where a government tax/revenue authority issues invoices for tax (only).
+    - Added to BIS instructions that these additional invoice type codes shall be handled as synonyms to the 380 code and thus do not require change in   processing.
+ 
+  - New codes added to multiple code lists (ICD, EAS, Allowance Reason):
+    - ICD code list: 0214, 0215, 0216 which affects rules BR-CL-10, BR-CL-11, BR-CL-21, BR-CL-25, BR-CL-26.
+    - EAS code list: 0147, 0170, 0188, 0215, 0216 which affects rule BR-CL-25.
+    - Allowance Reason Code list: 105 which affects rule BR-CL-19.
+
 ### November 2021 - Invoice and Self-Billing Specification v1.0.6
 Publication date 15 November 2021, Mandatory from 12:00PM AEST/2:00PM NZST 29 November 2021.
 
