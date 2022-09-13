@@ -55,5 +55,5 @@ The Peppol specifications and technical artefacts are available [here](https://d
 If you have any questions or feedback, please contact your relevant Peppol authority:
 
 * The New Zealand Peppol Authority - [support@nzpeppol.govt.nz](mailto:support@nzpeppol.govt.nz)
-* The Australian Peppol Authority - [einvoicing@ato.gov.au](mailto:einvoicing@ato.gov.au)
+* The Australian Peppol Authority - [eInvoicing@ato.gov.au](mailto:eInvoicing@ato.gov.au)
 
