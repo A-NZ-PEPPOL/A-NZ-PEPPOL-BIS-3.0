@@ -10,7 +10,30 @@ Guidance notes related to specifications are available [here](https://github.com
 
 ## A-NZ Release Notes:
 
-Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/release-notes/).
+Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/release-notes/).
+
+### November 2022 – Invoice and Self-Billing specification v1.0.8
+Effective date 21st November 2022, Mandatory from 12:00PM AEST/2:00PM NZST 6th February 2023.
+Aligns with the Peppol BIS 3.0.14 November 2022 release.
+
+Release overview:
+
+Adopted changes as appropriate, as per [BIS Billing release 3.0.14](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/release-notes/#_version_3_0_14), code list and validation artefact updates.
+
+A-NZ Invoice and Self-Billing Specifications:
+- Minor editorial changes
+
+Rules:
+-	Corrections to [PEPPOL-COMMON-R050](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-peppol/PEPPOL-COMMON-R050/) (Australian Business Number) to correct the validation rule as per [POACC-513](https://openpeppol.atlassian.net/browse/POACC-513)
+-	Change [PEPPOL-COMMON-R049](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-peppol/PEPPOL-COMMON-R049/) (Swedish organization number format) from ‘warning’ to ‘fatal’ as per [POACC-482](https://openpeppol.atlassian.net/browse/POACC-482)
+-	New rules [UBL-SR-51](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/rules/ubl-tc434/UBL-SR-51/) and [UBL-SR-52](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/rules/ubl-tc434/UBL-SR-52/) (as per [CEF]( https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/323) #323), both with ‘warning’ severity, to check for cardinality for cac:AddressLine/Line (for “Address line 3”) and cac:DocumentReference (for “Document Reference)
+-	Corrections to [UBL-CR-487](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/UBL-CR-487/) typo as per [CEF #313](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/313)
+-	Remove [DK-R-015](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-peppol/DK-R-015/) (Danish Company ID) validation rule as per [POACC-522](https://openpeppol.atlassian.net/browse/POACC-522) (Note that country-specific rules applying in other jurisdictions (e.g. DK-R-001) do not apply in Australia or New Zealand)
+
+Code lists and affected validation rules:
+-	Changes to ICD code list (rules [BR-CL-10](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-10/), [BR-CL-11](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-11/), [BR-CL-21](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-21/)): Added codes (0217, 0218, 0219, 0220) as per [POACC-535](https://openpeppol.atlassian.net/browse/POACC-535), [CEF #324](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/324) 
+-	Changes to EAS code list (rule [BR-CL-25](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-25/)): Removed code 9906 and 9907, added code 9959 as per [POACC-535](https://openpeppol.atlassian.net/browse/POACC-535), [CEF #324](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/324), removed code 0147, 0170 as per [POAC-510](https://openpeppol.atlassian.net/browse/POACC-510)
+-	Changes to ISO code list (rules [BR-CL-03](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-03/), [BR-CL-04](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-04/), [BR-CL-05](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-05/)): Added code (SLE) as per [CEF #324](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/324) 
 
 ### May 2022 – Invoice and Self-Billing specification v1.0.7
 Effective date 30 May 2022, Mandatory from 12:00PM AEST/2:00PM NZST 27 June 2022.
