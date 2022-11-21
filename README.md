@@ -22,7 +22,7 @@ In the rare event of potentially significant changes being to BIS Billing made a
 
 ### Peppol Biannual Release Process
 
-The Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/release-notes/).
+The Peppol BIS Billing release notes are available [here](https://test-docs.peppol.eu/poacc/2022-q3-member-review/billing/3.0/release-notes/).
 
 Peppol standards for business processes and transactions are updated biannually in May and November. Releases typically contain minor corrections and/or enhancements proposed by Peppol members (service providers or Peppol Authorities). 
 
