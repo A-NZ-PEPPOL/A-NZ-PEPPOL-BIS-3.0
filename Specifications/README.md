@@ -18,7 +18,8 @@ Aligns with the Peppol BIS 3.0.14 November 2022 release.
 
 Release overview:
 
-Adopted changes as appropriate, as per [BIS Billing release 3.0.14](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/release-notes/#_version_3_0_14), code list and validation artefact updates.
+- Adopted changes as appropriate, as per [BIS Billing release 3.0.14](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/release-notes/#_version_3_0_14), code list and validation artefact updates.
+
 
 A-NZ Invoice and Self-Billing Specifications:
 - Minor editorial changes
