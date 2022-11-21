@@ -1,5 +1,5 @@
 # A-NZ PEPPOL BIS 3.0
-Within this repository is a range of artefacts that will help Peppol Service Providers to implement and adopt the Australia-New Zealand extension of the [Peppol BIS Billing](https://docs.peppol.eu/poacc/billing/3.0/) and should be read in conjunction with that specification. 
+Within this repository is a range of artefacts that will help Peppol Service Providers to implement and adopt the Australia-New Zealand extension of the [Peppol BIS Billing](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/) and should be read in conjunction with that specification. 
 
 No localised versions of other Procure to Pay (P2P) specifications are required. See Procure to Pay section below for further details.
 
@@ -49,7 +49,7 @@ Peppol supports a suite of eProcurement business documents that can be used in A
 * **Order (and Order Response)**: enables order automation in line with catalogue and invoice. A buyer creates an order and the seller either accepts the order, accepts the order with changes or rejects the order and responds with the required information. Invoices containing an order reference can be matched automatically.
 * **Despatch Advice**: enables communication between Seller and Consignee regarding transport details including packing and delivery, ordering details including what was sent, quantity of goods sent and items outstanding, and receiving goods including delivery time and address details.
 
-The Peppol specifications and technical artefacts are available [here](https://docs.peppol.eu/poacc/upgrade-3/).
+The Peppol specifications and technical artefacts are available [here](https://docs.peppol.eu/poacc/upgrade-3/2022-Q4/).
 
 ## Feedback
 If you have any questions or feedback, please contact your relevant Peppol authority:
