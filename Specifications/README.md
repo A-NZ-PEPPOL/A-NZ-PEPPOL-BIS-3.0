@@ -13,7 +13,7 @@ Guidance notes related to specifications are available [here](https://github.com
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/release-notes/).
 
 ### November 2022 – Invoice and Self-Billing specification v1.0.8
-Implementation period 21st November – 5th February, Mandatory from 12:00PM AEST/2:00PM NZST 6th February 2023.
+Implementation period 21st November to 5th February, Mandatory from 12:00PM AEST/2:00PM NZST 6th February 2023.
 Aligns with the Peppol BIS 3.0.14 November 2022 release.
 
 Release overview:
