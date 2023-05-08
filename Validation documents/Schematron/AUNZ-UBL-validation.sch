@@ -201,10 +201,10 @@
       <assert id="BR-E-09-AUNZ" flag="fatal" test="xs:decimal(../cbc:TaxAmount) = 0">[BR-E-09-AUNZ]-The Tax category tax amount (BT-117) In a Tax breakdown (BG-23) where the Tax category code (BT-118) equals "Exempt from Tax" shall equal 0 (zero).</assert>
     </rule>
     <rule context="cac:AllowanceCharge[cbc:ChargeIndicator=false()]/cac:TaxCategory[normalize-space(cbc:ID)='E'][cac:TaxScheme/normalize-space(upper-case(cbc:ID))='GST']">
-      <assert id="BR-E-06" flag="fatal" test="(xs:decimal(cbc:Percent) = 0)">[BR-E-06]-In a Document level allowance (BG-20) where the Document level allowance Tax category code (BT-95) is "Exempt from Tax", the Document level allowance Tax rate (BT-96) shall be 0 (zero).</assert>
+      <assert id="BR-E-06-AUNZ" flag="fatal" test="(xs:decimal(cbc:Percent) = 0)">[BR-E-06-AUNZ]-In a Document level allowance (BG-20) where the Document level allowance Tax category code (BT-95) is "Exempt from Tax", the Document level allowance Tax rate (BT-96) shall be 0 (zero).</assert>
     </rule>
     <rule context="cac:AllowanceCharge[cbc:ChargeIndicator=true()]/cac:TaxCategory[normalize-space(cbc:ID)='E'][cac:TaxScheme/normalize-space(upper-case(cbc:ID))='GST']">
-      <assert id="BR-E-07" flag="fatal" test="(xs:decimal(cbc:Percent) = 0)">[BR-E-07]-In a Document level charge (BG-21) where the Document level charge Tax category code (BT-102) is "Exempt from Tax", the Document level charge Tax rate (BT-103) shall be 0 (zero).</assert>
+      <assert id="BR-E-07-AUNZ" flag="fatal" test="(xs:decimal(cbc:Percent) = 0)">[BR-E-07-AUNZ]-In a Document level charge (BG-21) where the Document level charge Tax category code (BT-102) is "Exempt from Tax", the Document level charge Tax rate (BT-103) shall be 0 (zero).</assert>
     </rule>
     <rule context="cac:InvoiceLine/cac:Item/cac:ClassifiedTaxCategory[normalize-space(cbc:ID) = 'E'][cac:TaxScheme/normalize-space(upper-case(cbc:ID))='GST'] | cac:CreditNoteLine/cac:Item/cac:ClassifiedTaxCategory[normalize-space(cbc:ID) = 'E'][cac:TaxScheme/normalize-space(upper-case(cbc:ID))='GST']">
       <assert id="BR-E-05-AUNZ" flag="fatal" test="(xs:decimal(cbc:Percent) = 0)">[BR-E-05-AUNZ]-In an Invoice line (BG-25) where the Invoiced item Tax category code (BT-151) is "Exempt from Tax", the Invoiced item Tax rate (BT-152) shall be 0 (zero).</assert>
@@ -1011,10 +1011,10 @@
       <assert id="UBL-SR-24" flag="fatal" test="(count(cac:Delivery) &lt;= 1)">[UBL-SR-24]-Deliver to information shall occur maximum once</assert>
       <assert id="UBL-SR-39" flag="fatal" test="(count(cac:ProjectReference/cbc:ID) &lt;= 1)">[UBL-SR-39]-Project reference shall occur maximum once.</assert>
       <assert id="UBL-SR-40" flag="fatal" test="(count(cac:AccountingCustomerParty/cac:Party/cac:PartyName/cbc:Name) &lt;= 1)">[UBL-SR-40]-Buyer trade name shall occur maximum once</assert>
-      <assert id="UBL-SR-44" flag="warning" test="count(//cbc:PaymentID[not(preceding::cbc:PaymentID/. = .)]) &lt;= 1">[UBL-SR-44]-Payment ID shall occur maximum once</assert>
-      <assert id="UBL-SR-45" flag="warning" test="(count(cac:PaymentMeans/cbc:PaymentDueDate) &lt;=1)">[UBL-SR-45]-Due Date shall occur maximum once</assert>
-      <assert id="UBL-SR-46" flag="warning" test="(count(cac:PaymentMeans/cbc:PaymentMeansCode/@name) &lt;=1)">[UBL-SR-46]-Payment means text shall occur maximum once</assert>
-      <assert id="UBL-SR-47" flag="warning" test="count(//cbc:PaymentMeansCode[not(preceding::cbc:PaymentMeansCode/. = .)]) &lt;= 1">[UBL-SR-47]-When there are more than one payment means code, they shall be equal</assert>
+      <assert id="UBL-SR-44-AUNZ" flag="warning" test="count(//cbc:PaymentID[not(preceding::cbc:PaymentID/. = .)]) &lt;= 1">[UBL-SR-44-AUNZ]-Payment ID shall occur maximum once</assert>
+      <assert id="UBL-SR-45-AUNZ" flag="warning" test="(count(cac:PaymentMeans/cbc:PaymentDueDate) &lt;=1)">[UBL-SR-45-AUNZ]-Due Date shall occur maximum once</assert>
+      <assert id="UBL-SR-46-AUNZ" flag="warning" test="(count(cac:PaymentMeans/cbc:PaymentMeansCode/@name) &lt;=1)">[UBL-SR-46-AUNZ]-Payment means text shall occur maximum once</assert>
+      <assert id="UBL-SR-47-AUNZ" flag="warning" test="count(//cbc:PaymentMeansCode[not(preceding::cbc:PaymentMeansCode/. = .)]) &lt;= 1">[UBL-SR-47-AUNZ]-When there are more than one payment means code, they shall be equal</assert>
       <assert id="UBL-SR-49" flag="fatal" test="(count(cac:InvoicePeriod/cbc:DescriptionCode) &lt;=1)">[UBL-SR-49]-Value tax point date shall occur maximum once</assert>
     </rule>
     <rule context="cac:InvoiceLine | cac:CreditNoteLine">
