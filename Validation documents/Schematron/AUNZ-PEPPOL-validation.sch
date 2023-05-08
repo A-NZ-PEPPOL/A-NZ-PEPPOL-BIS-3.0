@@ -18,8 +18,8 @@
 -->
 <!-- 
      PEPPOL rules adapted to AUNZ
-     Date: 2022-11-08 
-     Version: 1.0.8
+     Date: 2023-05-29 
+     Version: 1.0.9
 -->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:u="utils" schemaVersion="iso" queryBinding="xslt2">
 	<title>Rules for PEPPOL BIS 3.0 Billing adapted to AUNZ specification</title>
