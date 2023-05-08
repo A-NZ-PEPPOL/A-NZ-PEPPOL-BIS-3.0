@@ -265,8 +265,8 @@
     </rule>
   </pattern>
   <pattern id="UBL-syntax">
-    <rule context="//cac:AddressLine">
-      <assert id="UBL-SR-51" flag="fatal" test="count(cbc:Line) = 1">[UBL-SR-51]-An address can only have one third line.</assert>
+    <rule context="//cac:PostalAddress | //cac:RegistrationAddress | cac:DeliveryAddress"">
+      <assert id="UBL-SR-51" flag="fatal" test="not(cac:AddressLine) or count(cac:AddressLine) = 1">[UBL-SR-51]-An address can only have one third line.</assert>
     </rule>
     <rule context="cac:AccountingSupplierParty/cac:Party">
       <assert id="UBL-SR-42" flag="fatal" test="(count(cac:PartyTaxScheme) &lt;= 2)">[UBL-SR-42]-Party tax scheme shall occur maximum twice in accounting supplier party</assert>
