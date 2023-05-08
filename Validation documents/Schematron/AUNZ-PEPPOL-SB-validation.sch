@@ -413,12 +413,12 @@
             satisfies @currencyID = $code" flag="fatal">Currency code must be according to ISO 4217:2005</assert>
 		</rule>
 		<rule context="cbc:InvoiceTypeCode">
-			<assert id="PEPPOL-EN16931-P0100-SB" test="
+			<assert id="PEPPOL-EN16931-P0100-AUNZ-SB" test="
           $profile != '01' or (some $code in tokenize('389', '\s')
             satisfies normalize-space(text()) = $code)" flag="fatal">Invoice type code MUST be set according to the profile.</assert>
 		</rule>
 		<rule context="cbc:CreditNoteTypeCode">
-			<assert id="PEPPOL-EN16931-P0101-SB" test="
+			<assert id="PEPPOL-EN16931-P0101-AUNZ-SB" test="
           $profile != '01' or (some $code in tokenize('261', '\s')
             satisfies normalize-space(text()) = $code)" flag="fatal">Credit note type code MUST be set according to the profile.</assert>
 		</rule>
