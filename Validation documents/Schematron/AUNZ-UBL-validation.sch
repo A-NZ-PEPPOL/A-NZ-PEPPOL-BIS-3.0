@@ -674,7 +674,7 @@
       <assert id="UBL-CR-381" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cac:LocationCoordinate)">[UBL-CR-381]-A UBL invoice should not include the Delivery DeliveryLocation LocationCoordinate</assert>
       <assert id="UBL-CR-382" flag="warning" test="not(cac:Delivery/cac:AlternativeDeliveryLocation)">[UBL-CR-382]-A UBL invoice should not include the Delivery AlternativeDeliveryLocation</assert>
       <assert id="UBL-CR-383" flag="warning" test="not(cac:Delivery/cac:RequestedDeliveryPeriod)">[UBL-CR-383]-A UBL invoice should not include the Delivery RequestedDeliveryPeriod</assert>
-      <assert id="UBL-CR-384" flag="warning" test="not(cac:Delivery/cac:EstimatedDeliveryPeriod)">[UBL-CR-384]-A UBL invoice should not include the Delivery PromisedDeliveryPeriod</assert>
+      <assert id="UBL-CR-384" flag="warning" test="not(cac:Delivery/cac:EstimatedDeliveryPeriod)">[UBL-CR-384]-A UBL invoice should not include the Delivery EstimatedDeliveryPeriod</assert>
       <assert id="UBL-CR-385" flag="warning" test="not(cac:Delivery/cac:CarrierParty)">[UBL-CR-385]-A UBL invoice should not include the Delivery CarrierParty</assert>
       <assert id="UBL-CR-386" flag="warning" test="not(cac:Delivery/cac:DeliveryParty/cbc:MarkCareIndicator)">[UBL-CR-386]-A UBL invoice should not include the DeliveryParty MarkCareIndicator</assert>
       <assert id="UBL-CR-387" flag="warning" test="not(cac:Delivery/cac:DeliveryParty/cbc:MarkAttentionIndicator)">[UBL-CR-387]-A UBL invoice should not include the DeliveryParty MarkAttentionIndicator</assert>
