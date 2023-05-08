@@ -648,7 +648,7 @@
       <assert id="UBL-CR-355" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cbc:LocationTypeCode)">[UBL-CR-355]-A UBL invoice should not include the Delivery DeliveryLocation LocationTypeCode</assert>
       <assert id="UBL-CR-356" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cbc:InformationURI)">[UBL-CR-356]-A UBL invoice should not include the Delivery DeliveryLocation InformationURI</assert>
       <assert id="UBL-CR-357" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cbc:Name)">[UBL-CR-357]-A UBL invoice should not include the Delivery DeliveryLocation Name</assert>
-      <assert id="UBL-CR-358" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cac:ValidityPeriod)">[UBL-CR-358]-A UBL invoice should not include the Delivery DeliveryLocation ValidationPeriod</assert>
+      <assert id="UBL-CR-358" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cac:ValidityPeriod)">[UBL-CR-358]-A UBL invoice should not include the Delivery DeliveryLocation ValidityPeriod</assert>
       <assert id="UBL-CR-359" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cac:Address/cbc:ID)">[UBL-CR-359]-A UBL invoice should not include the Delivery DeliveryLocation Address ID</assert>
       <assert id="UBL-CR-360" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cac:Address/cbc:AddressTypeCode)">[UBL-CR-360]-A UBL invoice should not include the Delivery DeliveryLocation Address AddressTypeCode</assert>
       <assert id="UBL-CR-361" flag="warning" test="not(cac:Delivery/cac:DeliveryLocation/cac:Address/cbc:AddressFormatCode)">[UBL-CR-361]-A UBL invoice should not include the Delivery DeliveryLocation Address AddressFormatCode</assert>
