@@ -16,7 +16,8 @@
         limitations under the License.
 
 -->
-<!--Schematron version 1.0.9 - Last update: 2023-05-29--><schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
+<!--Schematron version 1.0.9 - Last update: 2023-05-10-->
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
   <ns prefix="ext" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" />
   <ns prefix="cbc" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
   <ns prefix="cac" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" />

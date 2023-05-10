@@ -18,7 +18,7 @@
 -->
 <!-- 
      PEPPOL rules adapted to AUNZ
-     Date: 2023-05-29 
+     Last Updated: 2023-05-10 
      Version: 1.0.9
 -->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:u="utils" schemaVersion="iso" queryBinding="xslt2">
