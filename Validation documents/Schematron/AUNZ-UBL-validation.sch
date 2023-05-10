@@ -265,7 +265,7 @@
     </rule>
   </pattern>
   <pattern id="UBL-syntax">
-    <rule context="//cac:PostalAddress | //cac:RegistrationAddress | cac:DeliveryAddress"">
+    <rule context="//cac:PostalAddress | //cac:RegistrationAddress | cac:DeliveryAddress">
       <assert id="UBL-SR-51" flag="fatal" test="not(cac:AddressLine) or count(cac:AddressLine) = 1">[UBL-SR-51]-An address can only have one third line.</assert>
     </rule>
     <rule context="cac:AccountingSupplierParty/cac:Party">
