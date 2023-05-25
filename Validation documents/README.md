@@ -26,4 +26,4 @@ To validate the syntax, the UBL 2.1(ISO/IEC 19845:2015) schema shall be used.
 
 The A-NZ release notes are available [here](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications).
 
-Peppol BIS Billing 3.0 release notes are available [here](https://docs.peppol.eu/poacc/upgrade-3/2022-Q4/release-notes/).
+Peppol BIS Billing 3.0 release notes are available [here](https://docs.peppol.eu/poacc/upgrade-3/2023-Q2/release-notes/).

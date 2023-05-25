@@ -9,9 +9,40 @@ This repository contains;
 Guidance notes related to specifications are available [here](https://github.com/A-NZ-PEPPOL/Guidance-documents).
 
 ## A-NZ Release Notes:
+Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q2/release-notes/).
+### May 2023 – Invoice and Self-Billing specification v1.0.9
+Publication date 29th May 2023, Mandatory from 7th August 2023.
+Aligns with the Peppol BIS 3.0.15 May 2023 release.
 
-Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/release-notes/).
+Release overview:
+- Adopted changes as appropriate, as per [BIS Billing release 3.0.15](https://docs.peppol.eu/poacc/billing/3.0/2023-Q2/release-notes/#_version_3_0_15), code list and validation artefact updates 
 
+Rules:
+- Changed [PEPPOL-COMMON-R050](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-peppol/PEPPOL-COMMON-R050/) (Australian Business Number validation) severity from ‘warning’ to ‘fatal’
+- Removed [PEPPOL-COMMON-R048](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-peppol/PEPPOL-COMMON-R048/) (Italian VAT Code validation)
+- Corrected [UBL-SR-51](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/UBL-SR-51/) cardinality test of address line 3 ([CEF #341](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/341))
+- Corrected rule names BR-E-06, BR-E-07, UBL-SR-44, UBL-SR-45, UBL-SR-46, UBL-SR-47 to include ‘-AUNZ’ suffix
+- Corrected rule names PEPPOL-EN16931-P0100-SB, PEPPOL-EN16931-P0101-SB to include ‘-AUNZ’ suffix
+- Corrected rule text UBL-CR-384 from PromisedDeliveryPeriod to EstimatedDeliveryPeriod
+- Corrected rule text UBL-CR-419 from IssuerNumberID to IssueNumberID
+- Corrected rule text UBL-CR-572, UBL-CR-577, UBL-CR-583 from BareCodeSymbologyID to BarcodeSymbologyID
+
+Code lists and affected validation rules:
+- ICD code list
+  - Added 0221, 0222, 0223, 0224, 0225, 0226, 0227, 0228, 0229, 0230
+  - Affects [BR-CL-10](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-10/), [BR-CL-11](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-11/), [BR-CL-21](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-21/), [BR-CL-26](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-26/)
+- EAS code list 
+  - Removed 9955
+  - Added 0217, 0218, 0219, 0221, 0225, 0230
+  - Affects [BR-CL-25](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-25/)
+- UNCL7143 code list 
+  - Added EMD
+  - Affects  [BR-CL-13](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-tc434/BR-CL-13/)
+- EAID code list 
+  - Removed 9955
+  - Added 0221, 0230
+  - Affects [PEPPOL-EN16931-CL008](https://docs.peppol.eu/poacc/billing/3.0/rules/ubl-peppol/PEPPOL-EN16931-CL008/)
+  
 ### November 2022 – Invoice and Self-Billing specification v1.0.8
 Implementation period 21st November 2022 to 5th February 2023, Mandatory from 12:00PM AEST/2:00PM NZST 6th February 2023.
 Aligns with the Peppol BIS 3.0.14 November 2022 release.
