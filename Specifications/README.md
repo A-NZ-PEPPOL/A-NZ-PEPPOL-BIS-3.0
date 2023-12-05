@@ -9,7 +9,29 @@ This repository contains;
 Guidance notes related to specifications are available [here](https://github.com/A-NZ-PEPPOL/Guidance-documents).
 
 ## A-NZ Release Notes:
-Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q2/release-notes/).
+Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/release-notes/).
+### November 2023 – Invoice and Self-Billing specification v1.0.10
+Publication date 11th November 2023, Mandatory from 26th February 2024.
+Aligns with the Peppol BIS 3.0.16 November 2023 release.
+
+Release overview:
+- Adopted changes as appropriate, as per [BIS Billing release 3.0.16](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/release-notes/), code list and validation artefact updates 
+
+Rules:
+-	Removed [PEPPOL-EN16931-R006](https://docs.peppol.eu/poacc/billing/3.0/rules/PEPPOL-EN16931-R006/) as duplicates existing European rule [UBL-SR-04](https://docs.peppol.eu/poacc/billing/3.0/rules/UBL-SR-04/)
+-	Corrected to [UBL-SR-51](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/rules/ubl-tc434/UBL-SR-51/) rule to correct test for Delivery Location ([CEF #347](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/347)) 
+-	Corrected to [UBL-SR-43](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/UBL-SR-43/) rule to correct test to use schemeID ([CEF #351](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/351))
+-	Corrected rule text UBL-CR-183, UBL-CR-247, UBL-CR-282 from CorporationStockAmount to CorporateStockAmount
+
+Code lists and affected validation rules:
+- ISO4217 code list
+  - Removed MRO, STD, VEF
+  - Added MRU, STN, UYW, VES
+  - Affects [BR-CL-03](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-03/) [BR-CL-04](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-04/) [BR-CL-05](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-05/)
+- EAS code list
+  - Added 0218
+  - Affects [PEPPOL-EN16931-CL008](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-peppol/PEPPOL-EN16931-CL008/)
+
 ### May 2023 – Invoice and Self-Billing specification v1.0.9
 Publication date 29th May 2023, Mandatory from 7th August 2023.
 Aligns with the Peppol BIS 3.0.15 May 2023 release.
