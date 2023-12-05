@@ -28,7 +28,7 @@ Code lists and affected validation rules:
   - Removed MRO, STD, VEF
   - Added MRU, STN, UYW, VES
   - Affects [BR-CL-03](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-03/) [BR-CL-04](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-04/) [BR-CL-05](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-05/)
-- EAS code list
+- EAID code list
   - Added 0218
   - Affects [PEPPOL-EN16931-CL008](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-peppol/PEPPOL-EN16931-CL008/)
 
