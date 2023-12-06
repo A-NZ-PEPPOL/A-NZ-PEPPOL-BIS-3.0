@@ -11,7 +11,7 @@ Guidance notes related to specifications are available [here](https://github.com
 ## A-NZ Release Notes:
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/release-notes/).
 ### November 2023 – Invoice and Self-Billing specification v1.0.10
-Publication date 11th November 2023, Mandatory from 26th February 2024.
+Publication date 11th December 2023, Mandatory from 26th February 2024.
 Aligns with the Peppol BIS 3.0.16 November 2023 release.
 
 Release overview:
@@ -19,8 +19,8 @@ Release overview:
 
 Rules:
 -	Removed [PEPPOL-EN16931-R006](https://docs.peppol.eu/poacc/billing/3.0/rules/PEPPOL-EN16931-R006/) as duplicates existing European rule [UBL-SR-04](https://docs.peppol.eu/poacc/billing/3.0/rules/UBL-SR-04/)
--	Corrected to [UBL-SR-51](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/rules/ubl-tc434/UBL-SR-51/) rule to correct test for Delivery Location ([CEF #347](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/347)) 
--	Corrected to [UBL-SR-43](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/UBL-SR-43/) rule to correct test to use schemeID ([CEF #351](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/351))
+-	Correction to [UBL-SR-51](https://docs.peppol.eu/poacc/billing/3.0/2022-Q4/rules/ubl-tc434/UBL-SR-51/) rule to correct test for Delivery Location ([CEF #347](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/347)) 
+-	Correction to [UBL-SR-43](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/UBL-SR-43/) rule to correct test to use schemeID ([CEF #351](https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/351))
 -	Corrected rule text UBL-CR-183, UBL-CR-247, UBL-CR-282 from CorporationStockAmount to CorporateStockAmount
 
 Code lists and affected validation rules:
@@ -28,7 +28,7 @@ Code lists and affected validation rules:
   - Removed MRO, STD, VEF
   - Added MRU, STN, UYW, VES
   - Affects [BR-CL-03](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-03/) [BR-CL-04](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-04/) [BR-CL-05](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-tc434/BR-CL-05/)
-- EAID code list
+- EAS code list
   - Added 0218
   - Affects [PEPPOL-EN16931-CL008](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/rules/ubl-peppol/PEPPOL-EN16931-CL008/)
 
