@@ -9,7 +9,7 @@ This repository contains;
 Guidance notes related to specifications are available [here](https://github.com/A-NZ-PEPPOL/Guidance-documents).
 
 ## A-NZ Release Notes:
-Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q2/release-notes/).
+Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/release-notes/).
 ### November 2023 – Invoice and Self-Billing specification v1.0.10
 Publication date 11th November 2023, Mandatory from 26th February 2024.
 Aligns with the Peppol BIS 3.0.16 November 2023 release.
