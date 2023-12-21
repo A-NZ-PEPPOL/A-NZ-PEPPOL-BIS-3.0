@@ -10,6 +10,8 @@ The Schematron folder contains three validation artefacts:
 
 This repository also contains an xslt folder with the xslt artefacts compiled from the schematron validation artefacts. Any of them can be used for validation of an A-NZ electronic invoice.
 
+In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are subject to review and approval but the PINT A-NZ Billing specification is anticipated to become mandatory in November 2024 and in May 2025 the A-NZ Peppol BIS 3.0 extensions will be removed.  You can view the new PINT A-NZ specification [here](https://docs.peppol.eu/poac/aunz/).  The validation artefacts are also included in the downloadable resources.
+
 ## Validation process
 
 In order to validate a document instance, the following process should be used:

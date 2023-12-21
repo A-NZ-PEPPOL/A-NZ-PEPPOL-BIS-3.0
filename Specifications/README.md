@@ -8,6 +8,8 @@ This repository contains;
 
 Guidance notes related to specifications are available [here](https://github.com/A-NZ-PEPPOL/Guidance-documents).
 
+In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are subject to review and approval but the PINT A-NZ Billing specification is anticipated to become mandatory in November 2024 and in May 2025 the A-NZ Peppol BIS 3.0 extensions will be removed.  You can view the new PINT A-NZ specification [here](https://docs.peppol.eu/poac/aunz/).
+
 ## A-NZ Release Notes:
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/release-notes/).
 
