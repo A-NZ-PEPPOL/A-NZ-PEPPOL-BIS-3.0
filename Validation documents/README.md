@@ -6,11 +6,11 @@ The Schematron folder contains three validation artefacts:
 
 * AUNZ-UBL-validation.sch adapts the EN16931 business rules to the Australian - New Zealand requirements. It should be applied to any invoice, credit note or self-billed invoice.
 * AUNZ-PEPPOL-validation.sch derived from the OpenPeppol business rules and adapted to AUNZ. It shall be applied to invoices and credit notes.
-* AUNZ-PEPPOL-SB-validation.sch derived from the OpenPeppol business rules adapted to AUNZ. It shall be applied the Self-Billing invoices and Self-Billing credit notes.
+* AUNZ-PEPPOL-SB-validation.sch derived from the OpenPeppol business rules adapted to AUNZ. It shall be applied to Self-Billing invoices and Self-Billing credit notes.
 
 This repository also contains an xslt folder with the xslt artefacts compiled from the schematron validation artefacts. Any of them can be used for validation of an A-NZ electronic invoice.
 
-In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are subject to review and approval but the PINT A-NZ Billing specification is anticipated to become mandatory in November 2024 and in May 2025 the A-NZ Peppol BIS 3.0 extensions will be removed.  You can view the new PINT A-NZ specification [here](https://docs.peppol.eu/poac/aunz/).  The validation artefacts are also included in the downloadable resources.
+In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are confirmed, the PINT A-NZ Billing specification will become mandatory on 15 November 2024 and after 15 May 2025 the A-NZ Peppol BIS 3.0 extensions will be phased out and no longer available for use.  You can view the new PINT A-NZ specification [here](https://docs.peppol.eu/poac/aunz/).  The validation artefacts are also included in the downloadable resources.
 
 ## Validation process
 
