@@ -28,7 +28,7 @@ The Peppol BIS Billing release notes are available [here](https://docs.peppol.eu
 
 Peppol standards for business processes and transactions are updated biannually in May and November. Releases typically contain minor corrections and/or enhancements proposed by Peppol members (service providers or Peppol Authorities). 
 
-Key dates for Peppol releases are available [here](https://peppol.eu/downloads/post-award/). 
+Key dates for Peppol releases are available [here](https://peppol.org/documentation/technical-documentation/post-award-documentation/). 
 
 The specifications provide message syntax, business rules, code lists and implementation guidance, and are supported by centrally maintained validation artefacts to assist service providers to implement services that comply with the standards.
 
