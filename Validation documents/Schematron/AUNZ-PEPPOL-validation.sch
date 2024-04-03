@@ -187,6 +187,33 @@
 		<sequence select="if ($tappo = 0) then $mapper else ( xs:integer($mapper) + u:addPIVA(substring(xs:string($arg),2), (if($pari=0) then 1 else 0) ) )"/>
 	</function>
 	
+  
+   <!-- Function for Swedish organisation numbers (0007) -->
+  <function xmlns="http://www.w3.org/1999/XSL/Transform" name="u:checkSEOrgnr" as="xs:boolean">
+    <param name="number" as="xs:string"/>
+	<choose>
+		<!-- Check if input is numeric -->
+		<when test="not(matches($number, '^\d+$'))">
+			<sequence select="false()"/>
+		</when>
+		<otherwise>
+			<!-- verify the check number of the provided identifier according to the Luhn algorithm-->
+			<variable name="mainPart" select="substring($number, 1, 9)"/>
+			<variable name="checkDigit" select="substring($number, 10, 1)"/>
+			<variable name="sum" as="xs:integer">
+			  <value-of select="sum(
+						for $pos in 1 to string-length($mainPart) return 
+							if ($pos mod 2 = 1) 
+							then (number(substring($mainPart, string-length($mainPart) - $pos + 1, 1)) * 2) mod 10 + 
+								 (number(substring($mainPart, string-length($mainPart) - $pos + 1, 1)) * 2) idiv 10 
+							else number(substring($mainPart, string-length($mainPart) - $pos + 1, 1))
+					)"/>
+			</variable>
+			<variable name="calculatedCheckDigit" select="(10 - $sum mod 10) mod 10"/>
+			<sequence select="$calculatedCheckDigit = number($checkDigit)"/>
+		</otherwise>
+	</choose>
+  </function>
 	<!-- Empty elements -->
 	<pattern>
 		<rule context="//*[not(*) and not(normalize-space())]">
@@ -348,7 +375,7 @@
 			<assert id="PEPPOL-COMMON-R048" test="u:checkPIVAseIT(normalize-space())" flag="warning">Italian VAT Code (Partita Iva) must be stated in the correct format</assert>
 		</rule> -->
 		<rule context="cbc:EndpointID[@schemeID = '0007'] | cac:PartyIdentification/cbc:ID[@schemeID = '0007'] | cbc:CompanyID[@schemeID = '0007']">
-			<assert id="PEPPOL-COMMON-R049" test="string-length(normalize-space()) = 10 and string(number(normalize-space())) != 'NaN'" flag="fatal">Swedish organization number MUST be stated in the correct format.</assert>			
+			<assert id="PEPPOL-COMMON-R049" test="string-length(normalize-space()) = 10 and string(number(normalize-space())) != 'NaN' and u:checkSEOrgnr(normalize-space())" flag="fatal">Swedish organization number MUST be stated in the correct format.</assert>			
 		</rule>
 		<rule context="cbc:EndpointID[@schemeID = '0151'] | cac:PartyIdentification/cbc:ID[@schemeID = '0151'] | cbc:CompanyID[@schemeID = '0151']">
 			<assert id="PEPPOL-COMMON-R050" test="matches(normalize-space(), '^[0-9]{11}$') and u:abn(normalize-space())" flag="fatal">Australian Business Number (ABN) MUST be stated in the correct format.</assert>
