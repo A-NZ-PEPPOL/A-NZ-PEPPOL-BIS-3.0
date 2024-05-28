@@ -11,8 +11,34 @@ Guidance notes related to specifications are available [here](https://github.com
 In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are subject to review and approval but the PINT A-NZ Billing specification is anticipated to become mandatory in November 2024 and in May 2025 the A-NZ Peppol BIS 3.0 extensions will be removed.  You can view the new PINT A-NZ specification [here](https://docs.peppol.eu/poac/aunz/).
 
 ## A-NZ Release Notes:
-Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2023-Q4/release-notes/).
+Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/release-notes/).
 
+### May 2024 – Invoice and Self-Billing specification v1.0.11
+Publication date 3rd June 2024, Mandatory from 26th August 2024.
+Aligns with the Peppol BIS 3.0.17 May 2024 release.
+
+Release overview:
+-	Adopted changes as appropriate, as per [BIS Billing release 3.0.17](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/release-notes/), code list and validation artefact updates 
+
+Rules:
+-	Changed [PEPPOL-COMMON-R049](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-peppol/PEPPOL-COMMON-R049/) to add validation for Swedish Organization number
+
+Code lists and affected validation rules:
+
+- ISO4217 code list 
+  - Removed SLL
+  - Affects [BR-CL-03](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-03/) [BR-CL-04](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-04/) [BR-CL-05](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-05/)
+- UNCL4461 code list 
+  - Added 98
+  - Affects [BR-CL-16](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-16/)
+- UTDID 7143 code list 
+  - Added GMN
+  - Affects [BR-CL-13](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-13/)
+- UTDID 7161 code list 
+  - Added PRV
+  - Affects [BR-CL-20](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-20/)
+
+  
 ### November 2023 – Invoice and Self-Billing specification v1.0.10
 Publication date 11th December 2023, Mandatory from 26th February 2024.
 Aligns with the Peppol BIS 3.0.16 November 2023 release.
