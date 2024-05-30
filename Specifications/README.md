@@ -26,7 +26,8 @@ Rules:
 Code lists and affected validation rules:
 
 - ISO4217 code list 
-  - Removed SLL
+  - Removed SLE, SLL, UYW, VES
+  - Added VEF
   - Affects [BR-CL-03](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-03/) [BR-CL-04](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-04/) [BR-CL-05](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/rules/ubl-tc434/BR-CL-05/)
 - UNCL4461 code list 
   - Added 98
