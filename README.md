@@ -1,7 +1,8 @@
 # A-NZ PEPPOL BIS 3.0
 Within this repository is a range of artefacts that will help Peppol Service Providers to implement and adopt the Australia-New Zealand extension of the [Peppol BIS Billing](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/) and should be read in conjunction with that specification. 
 
-In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are confirmed, the PINT A-NZ Billing specification will become mandatory on 15 November 2024 and after 15 May 2025 the A-NZ Peppol BIS 3.0 extensions will be phased out and no longer available for use.  You can view the new PINT A-NZ specification [here](https://docs.peppol.eu/poac/aunz/).
+## PINT A-NZ Migration
+In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are confirmed, the PINT A-NZ Billing specification will become mandatory on 15 November 2024 and after 15 May 2025 the A-NZ Peppol BIS 3.0 extensions will be phased out and no longer available for use.  For more information see the [PINT A-NZ v1.0](https://docs.peppol.eu/poac/aunz/) (current) and [PINT A-NZ v1.0.1](https://docs.peppol.eu/poac/aunz/2024-Q2/) (effective 1 September 2024) specifications.
 
 No localised versions of other Procure to Pay (P2P) specifications are required. See Procure to Pay section below for further details.
 
