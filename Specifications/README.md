@@ -14,6 +14,32 @@ In December 2023 the new Peppol International (PINT) A-NZ Billing specification 
 ## A-NZ Release Notes:
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/release-notes/).
 
+### November 2024 – Invoice and Self-Billing specification v1.0.12
+Publication date 2nd December 2024, Mandatory from *TBC*.
+Aligns with the Peppol BIS 3.0.18 November 2024 release.
+
+Release overview:
+-	Adopted changes as appropriate, as per [BIS Billing release 3.0.18](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/release-notes/), code list and validation artefact updates 
+
+Rules:
+-	Changed [PEPPOL-EN16931-R002](https://test-docs.peppol.eu/poacc/billing/3.0/2024-q4) rule that no more than one note is allowed on document level, unless both the buyer and seller are German organizations
+
+Code lists and affected validation rules:
+
+- UNCL 1001 code list 
+  - Added 326, 384
+  - Affects [BR-CL-01](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-01/)
+- ICD 6523 code list 
+  - Added 0231, 0232, 0233, 0234, 0235, 0236, 0237, 0238
+  - Affects [BR-CL-10](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-10/) [BR-CL-11](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-11/) [BR-CL-21](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-21/) [BR-CL-26](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-26/)
+- EAS code list 
+  - Added 0177, 0235
+  - Affects [BR-CL-25](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-25/)
+- ISO 4217 code list 
+  - Added VED, ZWG
+  - Removed HRK
+  - Affects [BR-CL-03](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-03/) [BR-CL-04](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-04/) [BR-CL-05](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-tc434/BR-CL-05/)
+
 ### May 2024 – Invoice and Self-Billing specification v1.0.11
 Publication date 3rd June 2024, Mandatory from 1st September 2024.
 Aligns with the Peppol BIS 3.0.17 May 2024 release.
