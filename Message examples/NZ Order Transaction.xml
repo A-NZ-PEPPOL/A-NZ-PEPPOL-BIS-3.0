@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This example demonstrates an einvoicing order transaction in New Zealand. An einvoicing order transaction refers to the electronic exchange of order-related documents between a buyer and a supplier -->
 <Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2"
 	   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 	   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
