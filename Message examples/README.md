@@ -2,7 +2,7 @@
 
 This repository contains Peppol post-award UBL sample messages, including invoice, invoice response, credit note, self-billing invoice, despatch advice, order, order agreement, catalogue and punch out. 
 
-There are multiple invoice samples illustrating different business scenarios or use cases, e.g. freight only invoices, GST only invoices or invoices with a negative amount. A description of each sample and the business case it illustrates is provided below. 
+There are multiple invoice samples illustrating different business scenarios or use cases, e.g. freight only invoices, GST only invoices or invoices with a negative amount. A description of each sample and the business scenario/use case it illustrates is provided below. 
 
 **Australia (AU) Examples**
 | Example | Description    | 
