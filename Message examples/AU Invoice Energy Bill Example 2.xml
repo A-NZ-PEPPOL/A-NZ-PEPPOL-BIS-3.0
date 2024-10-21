@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Example of 'mixed' taxable and non-taxable supplies and some optional data
-(payment terms specifying a conditional discount, delivery location, payment means/options, invoiced objects) -->
+<!-- This example demonstrates an Australian invoice with 'mixed' taxable and non-taxable supplies and some optional data (payment terms specifying a conditional discount, delivery location, payment means/options, invoiced objects) -->
 <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
