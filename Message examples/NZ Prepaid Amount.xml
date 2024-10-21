@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This example demonstrates an einvoicing prepaid amount in New Zealand. An einvoicing prepaid amount refers to funds paid by a buyer to a seller in advance for goods or services that will be delivered or performed at a later date. This upfront payment is recorded in the eInvoice and helps secure the transaction, demonstrating the buyer’s commitment -->
 <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
