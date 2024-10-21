@@ -42,7 +42,7 @@ There are multiple invoice samples illustrating different business scenarios or 
 | NZ Catalogue | This example demonstrates a valid New Zealand Catalogue transaction.  A Catalogue refers to a digital list of products or services that a supplier offers to buyers and includes detailed information about each item |
 | NZ Invoice - Line level charge | This example demonstrates a valid New Zealand invoice with an allowance amount on the line level. An allowance amount on an invoice line refers to a discount or reduction applied to a specific item or service listed on the invoice, rather than to the total invoice amount |
 
-The message samples are for illustrative and support purposes only, and do not represent specific business requirements or industry recommendations. Service providers and end users should refer to formal supporting documentations for guidance, including:
+**Note**- The message samples are for illustrative and support purposes only, and do not represent specific business requirements or industry recommendations. Service providers and end users should refer to formal supporting documentations for guidance, including:
 * Peppol [Business Implementation Specifications for invoicing](https://docs.peppol.eu/poacc/billing/3.0/) (billing) and [other eProcurement transactions](https://docs.peppol.eu/poacc/upgrade-3/)
 * [A-NZ Peppol Invoice and Self-Billing specifications](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications) (extensions)
 * [A-NZ Guidance notes](https://github.com/A-NZ-PEPPOL/Guidance-documents)
