@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
+<--! This example demonstrates an einvoicing Self-Billed credit note in New Zealand. A Self-Billed credit note is issued by the buyer to correct errors, apply discounts, or account for returns in a previously issued Self-Billed invoice -->
   <CreditNote xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2">
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:selfbilling:international:aunz:3.0</cbc:CustomizationID> 
   <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:selfbilling:01:1.0</cbc:ProfileID> 
