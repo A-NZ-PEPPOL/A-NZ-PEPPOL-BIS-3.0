@@ -4,6 +4,11 @@ This repository contains Peppol post-award UBL sample messages, including invoic
 
 There are multiple invoice samples illustrating different business scenarios or use cases, e.g. freight only invoices, GST only invoices or invoices with a negative amount. 
 
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
+
+
 The message samples are for illustrative and support purposes only, and do not represent specific business requirements or industry recommendations. Service providers and end users should refer to formal supporting documentations for guidance, including:
 * Peppol [Business Implementation Specifications for invoicing](https://docs.peppol.eu/poacc/billing/3.0/) (billing) and [other eProcurement transactions](https://docs.peppol.eu/poacc/upgrade-3/)
 * [A-NZ Peppol Invoice and Self-Billing specifications](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications) (extensions)
