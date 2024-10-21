@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!-- This example demonstrates an einvoicing order response in New Zealand. The buyer acknowledges receipt of the invoice and confirms the order details, which can include acceptance, rejection, or requests for modifications -->
 <OrderResponse xmlns="urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2"
 			   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
