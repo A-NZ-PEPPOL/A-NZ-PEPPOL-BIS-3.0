@@ -9,7 +9,7 @@
     <cbc:IssueDate>2019-10-28</cbc:IssueDate>
     <cbc:DueDate>2019-11-30</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-	<cbc:Note>Partial paid invoice without GST</cbc:Note>
+	<cbc:Note>Partial paid invoice with GST</cbc:Note>
     <cbc:DocumentCurrencyCode>AUD</cbc:DocumentCurrencyCode>
     <cbc:AccountingCost>4025:123:4343</cbc:AccountingCost>
     <cbc:BuyerReference>Your reference 123</cbc:BuyerReference>
