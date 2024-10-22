@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This example demonstrates einvoicing Self-Billing in New Zealand. Self-Billing involves the buyer generating and sending invoices to the supplier, rather than the supplier issuing the invoice -->
+<!-- This example demonstrates a valid New Zealand Self-Billing invoice. Self-Billing involves the buyer generating and sending invoices to the supplier, rather than the supplier issuing the invoice -->
 <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
@@ -7,21 +7,20 @@
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:selfbilling:international:aunz:3.0</cbc:CustomizationID>
     <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:selfbilling:01:1.0</cbc:ProfileID>
 
-    <cbc:ID>Snippet1</cbc:ID>
+    <cbc:ID>INV_00482</cbc:ID>
     <cbc:IssueDate>2019-07-29</cbc:IssueDate>
     <cbc:DueDate>2019-08-30</cbc:DueDate>
-
     <cbc:InvoiceTypeCode>389</cbc:InvoiceTypeCode>
 
-    <cbc:Note>Some Blurb about the Invoice</cbc:Note>
+    <cbc:Note>Buyer-created tax invoice - Agreement between the buyer and supplier.</cbc:Note>
     <cbc:DocumentCurrencyCode>NZD</cbc:DocumentCurrencyCode>
     <cbc:AccountingCost>4025:123:4343</cbc:AccountingCost>
     <cbc:BuyerReference>0150abc</cbc:BuyerReference>
-    <!--cac:InvoicePeriod>
+    <cac:InvoicePeriod>
        <cbc:StartDate>2019-06-01</cbc:StartDate>
        <cbc:EndDate>2019-07-30</cbc:EndDate>
        <cbc:DescriptionCode>432</cbc:DescriptionCode>
-    </cac:InvoicePeriod-->
+    </cac:InvoicePeriod>
        <cac:OrderReference>
        <cbc:ID>SOMEBLERB</cbc:ID>
     <cbc:SalesOrderID>12345678</cbc:SalesOrderID>
@@ -54,19 +53,19 @@
                 <cbc:ID>9429033821733</cbc:ID>
             </cac:PartyIdentification>
             <cac:PartyName>
-                <cbc:Name>SupplierTradingName Ltd.</cbc:Name>
+                <cbc:Name>GNS Supplies Ltd</cbc:Name>
             </cac:PartyName>
             <cac:PostalAddress>
-                <cbc:StreetName>Main street 1</cbc:StreetName>
-                <cbc:AdditionalStreetName>Postbox 123</cbc:AdditionalStreetName>
+                <cbc:StreetName>O'Reilly Brow</cbc:StreetName>
+                <cbc:AdditionalStreetName>Unit 93 2 Baylee Park</cbc:AdditionalStreetName>
                 <cbc:CityName>Wellington</cbc:CityName>
-                <cbc:PostalZone>NZ 123 EW</cbc:PostalZone>
+                <cbc:PostalZone>5016</cbc:PostalZone>
                 <cac:Country>
                     <cbc:IdentificationCode>NZ</cbc:IdentificationCode>
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyTaxScheme>
-                <cbc:CompanyID>777-777-777</cbc:CompanyID>
+                <cbc:CompanyID>47555222000</cbc:CompanyID>
                 <cac:TaxScheme>
                     <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
@@ -78,9 +77,9 @@
             </cac:PartyLegalEntity>
 
             <cac:Contact>
-                <cbc:Name>Ronald MacDonald</cbc:Name>
+                <cbc:Name>Carlos Jacob</cbc:Name>
                 <cbc:Telephone>Mobile 021 1090666</cbc:Telephone>
-                <cbc:ElectronicMail>ronald.macdonald@qualitygoods.co.nz</cbc:ElectronicMail>
+                <cbc:ElectronicMail>carlos.jacob@gns.com.au</cbc:ElectronicMail>
             </cac:Contact>
         </cac:Party>
     </cac:AccountingSupplierParty>
@@ -92,13 +91,13 @@
                 <cbc:ID schemeID="0088">9429033591476</cbc:ID>
             </cac:PartyIdentification>
             <cac:PartyName>
-                <cbc:Name>Trotters Trading Co Ltd</cbc:Name>
+                <cbc:Name>Walls Trading Co Ltd</cbc:Name>
             </cac:PartyName>
             <cac:PostalAddress>
                 <cbc:StreetName>100 Queen Street</cbc:StreetName>
-                <cbc:AdditionalStreetName>Po box 878</cbc:AdditionalStreetName>
+                <cbc:AdditionalStreetName>221 King Street</cbc:AdditionalStreetName>
                 <cbc:CityName>Auckland</cbc:CityName>
-                <cbc:PostalZone>A36577</cbc:PostalZone>
+                <cbc:PostalZone>0603</cbc:PostalZone>
                 <cac:Country>
                     <cbc:IdentificationCode>NZ</cbc:IdentificationCode>
                 </cac:Country>
@@ -110,7 +109,7 @@
                 </cac:TaxScheme>
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
-                <cbc:RegistrationName>Buyer Official Name</cbc:RegistrationName>
+                <cbc:RegistrationName>Walls Incorporated</cbc:RegistrationName>
                 <cbc:CompanyID schemeID="0088">9429033591476</cbc:CompanyID>
             </cac:PartyLegalEntity>
             <cac:Contact>
@@ -145,7 +144,7 @@
            <cbc:PostalZone>1111</cbc:PostalZone>
            <cbc:CountrySubentity>Kapiti Coast</cbc:CountrySubentity>
            <cac:AddressLine>
-               <cbc:Line>Out-in-theSticks</cbc:Line>
+               <cbc:Line>Unit 2</cbc:Line>
            </cac:AddressLine>
            <cac:Country>
                     <cbc:IdentificationCode>NZ</cbc:IdentificationCode>
