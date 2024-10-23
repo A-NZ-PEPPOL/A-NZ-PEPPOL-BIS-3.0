@@ -16,7 +16,7 @@ There are multiple invoice samples illustrating different business scenarios or 
 | AU GST Only | This example demonstrates an Australian invoice with a standard tax scheme GST only applied without a prepaid amount to reduce the total payable amount |
 | AU Invoice Energy Bill - Example 1 | This example demonstrates an Australian invoice with 'mixed' taxable and non-taxable supplies including a non-taxable solar rebate (e.g. micro-business not registered for GST) |
 | AU Invoice Energy Bill - Example 2 | This example demonstrates an Australian invoice with 'mixed' taxable and non-taxable supplies and some optional data (payment terms specifying a conditional discount, delivery location, payment means/options, invoiced objects) |
-| AU Invoice Energy Bill - Example 3 |	This example demonstrates an Australian simple negative invoice |
+| AU Invoice Energy Bill - Example 3 (Negative Invoice) |	This example demonstrates an Australian simple negative invoice |
 | AU Invoice | This example demonstrates an Australian valid invoice | 
 | AU Order Agreement |	This example demonstrates an Australian Order Agreement. An order agreement includes information of an order and of the order confirmation | 
 | AU Order Transaction |	This example demonstrates an Australian Order Transaction. An order agreement transaction with all required information is sent from the seller to the buyer |
