@@ -7,7 +7,7 @@ There are multiple invoice samples illustrating different business scenarios or 
 **Australia (AU) Examples**
 | Example | Description    | 
 | :---:   | :--- | 
-| AU Credit Note | This example demonstrates an Australian simple credit note | 
+| AU Credit Note | This example demonstrates a simple Australian credit note | 
 | AU Despatch Advice | This example demonstrates an Australian simple despatch advice. A despatch advice is used in the fulfillment process, by the sender, to notify the receiver about the despatch and delivery period for the goods being sent, as well as details about the goods for cross checking with the order | 
 | AU Freight - Document Level | This example demonstrates an invoice in Australia that has additional freight charges included at the document level of the invoice | 
 | AU Freight - Line Item | This example demonstrates an invoice in Australia that has additional freight charges included at the line level of the invoice as a separate line level amount |
