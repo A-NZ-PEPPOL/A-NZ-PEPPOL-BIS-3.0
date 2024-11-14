@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This example demonstrates an Australian simple despatch advice. A despatch advice is used in the fulfillment process by the sender to notify the receiver about the despatch and delivery period for the goods being sent, as well as details about the goods for cross checking with the order -->
 <!--
                 Content:
                 This file is created based on the Peppol UBL Despatch Adivce.

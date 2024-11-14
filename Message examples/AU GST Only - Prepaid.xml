@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This example demonstrates an Australian invoice with a standard tax scheme GST only applied and includes a prepaid amount to reduce the total payable amount -->
 <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
@@ -8,7 +9,7 @@
     <cbc:IssueDate>2019-10-28</cbc:IssueDate>
     <cbc:DueDate>2019-11-30</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-	<cbc:Note>Partial paid invoice without GST</cbc:Note>
+	<cbc:Note>Partial paid invoice with GST</cbc:Note>
     <cbc:DocumentCurrencyCode>AUD</cbc:DocumentCurrencyCode>
     <cbc:AccountingCost>4025:123:4343</cbc:AccountingCost>
     <cbc:BuyerReference>Your reference 123</cbc:BuyerReference>
