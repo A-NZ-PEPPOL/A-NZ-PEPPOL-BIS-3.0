@@ -19,7 +19,7 @@ Publication date *TBC* December 2024, Mandatory from *TBC*.
 Aligns with the Peppol BIS 3.0.18 November 2024 release.
 
 Release overview:
--	No changes to code lists or affected business rules.
+-	Adopted changes as appropriate, as per [BIS Billing release 3.0.18](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/release-notes/), code list and validation artefact updates.
 - Version 1.0.12 is the final iteration of the A-NZ Invoice Extension. From the 25th May 2025 this specification will become deprecated and no longer supported. 
 
 Code lists and affected validation rules:
