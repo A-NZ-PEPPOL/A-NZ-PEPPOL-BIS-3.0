@@ -15,7 +15,7 @@ In December 2023 the new Peppol International (PINT) A-NZ Billing specification 
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/release-notes/).
 
 ### November 2024 – Invoice and Self-Billing specification v1.0.12
-Publication date 2nd December 2024 , Mandatory from 9th March 2025.
+Publication date 9th December 2024 , Mandatory from 9th March 2025.
 Aligns with the Peppol BIS 3.0.18 November 2024 release.
 
 Release overview:
