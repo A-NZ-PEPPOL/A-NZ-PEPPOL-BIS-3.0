@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>		
-<!--
-Punch Out: Spring 2020 release compliant
--->				
+<!-- This example demonstrates a New Zealand Punch Out transaction. An einvoicing Punch out is a process that allows buyers to access a supplier’s online catalogue directly from their own procurement system -->
+<!-- Punch Out: Spring 2020 release compliant -->				
 <Catalogue xmlns="urn:oasis:names:specification:ubl:schema:xsd:Catalogue-2"						
 		   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"				
 		   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">				

@@ -2,7 +2,7 @@
 Within this repository is a range of artefacts that will help Peppol Service Providers to implement and adopt the Australia-New Zealand extension of the [Peppol BIS Billing](https://docs.peppol.eu/poacc/billing/3.0/2024-Q2/) and should be read in conjunction with that specification. 
 
 ## PINT A-NZ Migration
-In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are confirmed, the PINT A-NZ Billing specification will become mandatory on 15 November 2024 and after 15 May 2025 the A-NZ Peppol BIS 3.0 extensions will be phased out and no longer available for use.  For more information see the [PINT A-NZ v1.0](https://docs.peppol.eu/poac/aunz/) (current) and [PINT A-NZ v1.0.1](https://docs.peppol.eu/poac/aunz/2024-Q2/) (effective 1 September 2024) specifications.
+In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The PINT A-NZ Billing specification became mandatory on **15 November 2024** and after **15 May 2025** the A-NZ Peppol BIS 3.0 extensions will be removed and no longer supported. From 15 May 2025 the PINT A-NZ specifications must be used for eInvoicing. For more information see the [PINT A-NZ v1.0.1](https://docs.peppol.eu/poac/aunz/) (current) and [PINT A-NZ v1.1.0](https://docs.peppol.eu/poac/aunz/2024-Q4/) (effective **10 March 2025**) specifications.
 
 No localised versions of other Procure to Pay (P2P) specifications are required. See Procure to Pay section below for further details.
 
@@ -23,9 +23,11 @@ With each Peppol release, changes to BIS Billing are reflected in the A-NZ speci
 
 In the rare event of potentially significant changes being to BIS Billing made at short notice, the changes may be reflected in the A-NZ extension in the following biannual release.
 
+Version 1.0.12 is the final iteration of the A-NZ Invoicing and Self-Billing specifications. 
+
 ### Peppol Biannual Release Process
 
-The Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/upgrade-3/2024-Q2/release-notes/).
+The Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/upgrade-3/2024-Q4/release-notes/).
 
 Peppol standards for business processes and transactions are updated biannually in May and November. Releases typically contain minor corrections and/or enhancements proposed by Peppol members (service providers or Peppol Authorities). 
 
@@ -52,7 +54,7 @@ Peppol supports a suite of eProcurement business documents that can be used in A
 * **Order (and Order Response)**: enables order automation in line with catalogue and invoice. A buyer creates an order and the seller either accepts the order, accepts the order with changes or rejects the order and responds with the required information. Invoices containing an order reference can be matched automatically.
 * **Despatch Advice**: enables communication between Seller and Consignee regarding transport details including packing and delivery, ordering details including what was sent, quantity of goods sent and items outstanding, and receiving goods including delivery time and address details.
 
-The Peppol specifications and technical artefacts are available [here](https://docs.peppol.eu/poacc/upgrade-3/2024-Q2/).
+The Peppol specifications and technical artefacts are available [here](https://docs.peppol.eu/poacc/upgrade-3/2024-Q4/).
 
 ## Feedback
 If you have any questions or feedback, please contact your relevant Peppol authority:

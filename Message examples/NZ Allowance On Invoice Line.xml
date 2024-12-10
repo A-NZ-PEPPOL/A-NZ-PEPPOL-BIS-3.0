@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This example demonstrates an einvoicing allowance on invoice line in New Zealand. An einvoicing allowance on an invoice line refers to a discount or reduction applied to a specific item or service listed on the invoice, rather than to the total invoice amount -->
 <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
@@ -12,11 +13,11 @@
     <cbc:DocumentCurrencyCode>NZD</cbc:DocumentCurrencyCode>
     <cbc:AccountingCost>4025:123:4343</cbc:AccountingCost>
     <cbc:BuyerReference>0150abc</cbc:BuyerReference>
-    <!--cac:InvoicePeriod>
+    <cac:InvoicePeriod>
        <cbc:StartDate>2019-06-01</cbc:StartDate>
        <cbc:EndDate>2019-07-30</cbc:EndDate>
        <cbc:DescriptionCode>432</cbc:DescriptionCode>
-    </cac:InvoicePeriod-->
+    </cac:InvoicePeriod>
        <cac:OrderReference>
        <cbc:ID>SOMEBLERB</cbc:ID>
     <cbc:SalesOrderID>12345678</cbc:SalesOrderID>

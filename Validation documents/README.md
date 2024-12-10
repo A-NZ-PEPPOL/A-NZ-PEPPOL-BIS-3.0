@@ -11,7 +11,7 @@ The Schematron folder contains three validation artefacts:
 This repository also contains an xslt folder with the xslt artefacts compiled from the schematron validation artefacts. Any of them can be used for validation of an A-NZ electronic invoice.
 
 ## PINT A-NZ Migration
-In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The migration dates are confirmed, the PINT A-NZ Billing specification will become mandatory on 15 November 2024 and after 15 May 2025 the A-NZ Peppol BIS 3.0 extensions will be phased out and no longer available for use.  For more information see the [PINT A-NZ v1.0](https://docs.peppol.eu/poac/aunz/) (current) and [PINT A-NZ v1.0.1](https://docs.peppol.eu/poac/aunz/2024-Q2/) (effective 1 September 2024) specifications.  The validation artefacts are also included in the downloadable resources.
+In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The PINT A-NZ Billing specification became mandatory on **15 November 2024** and after **15 May 2025** the A-NZ Peppol BIS 3.0 extensions will be removed and no longer supported.  For more information see the [PINT A-NZ v1.0.1](https://docs.peppol.eu/poac/aunz/) (current) and [PINT A-NZ v1.1.0](https://docs.peppol.eu/poac/aunz/2024-Q4/) (effective 10 March 2025) specifications. The validation artefacts are also included in the downloadable resources.
 
 ## Validation process
 
@@ -29,4 +29,4 @@ To validate the syntax, the UBL 2.1(ISO/IEC 19845:2015) schema shall be used.
 
 The A-NZ release notes are available [here](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/tree/master/Specifications).
 
-Peppol BIS Billing 3.0 release notes are available [here](https://docs.peppol.eu/poacc/upgrade-3/2024-Q2/release-notes/).
+Peppol BIS Billing 3.0 release notes are available [here](https://docs.peppol.eu/poacc/upgrade-3/2024-Q4/release-notes/).

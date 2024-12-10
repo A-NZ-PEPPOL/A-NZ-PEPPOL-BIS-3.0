@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
+<!-- This example demonstrates an einvoicing catalogue in New Zealand. In this context a catalogue refers to a digital list of products or services that a supplier offers to buyers. This catalogue includes detailed information about each item -->
 <Catalogue xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 		   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
 		   xmlns="urn:oasis:names:specification:ubl:schema:xsd:Catalogue-2">
