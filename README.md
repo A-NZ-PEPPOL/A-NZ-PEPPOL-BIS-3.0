@@ -43,7 +43,7 @@ Therefore, the normal Peppol release processes apply to those documents without 
 
 ### Procure to Pay documents supported by Peppol
 
-Peppol supports a suite of eProcurement business documents that can be used in Australia and New Zealand without specialisation including;
+Peppol supports a suite of eProcurement business documents that can be used in Australia and New Zealand without localisation including;
 * **Invoice Response**: enables status notification for an invoice or credit note, e.g. an invoice is accepted, being processed, rejected, or under query. Specific message responses improve the efficiency for both parties to address exceptions.
 * **Catalogue (and Catalogue Response)**: enables the automated exchange of catalogue information including the seller providing a new, updated or deleted catalogue, and the buyer advising whether the information (new or updates) is accepted in the buyers’ ERP system.
 * **Punch Out**: enables integration between the seller’s web catalogue and buyer’s procurement system to create a product or service list for the buyer, which can later be used as the basis for an order or item comparison list.
