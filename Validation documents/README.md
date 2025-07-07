@@ -1,6 +1,9 @@
-# AUNZ-Validation artefacts
+# AUNZ-Validation artefacts (Deprecated)
 
 This repository contains the validation artefacts for the Australian - New Zealand invoice specification.
+
+**Note** - The A-NZ BIS 3.0 extension has been deprecated and will no longer be maintained for future Peppol releases.  
+PINT A-NZ is the default mandatory specification for A-NZ eInvoicing and will be updated to align with future Peppol PINT releases. The current PINT A-NZ specification and information to support its implementation can be found here.  
 
 The Schematron folder contains three validation artefacts:
 
@@ -9,9 +12,6 @@ The Schematron folder contains three validation artefacts:
 * AUNZ-PEPPOL-SB-validation.sch derived from the OpenPeppol business rules adapted to AUNZ. It shall be applied to Self-Billing invoices and Self-Billing credit notes.
 
 This repository also contains an xslt folder with the xslt artefacts compiled from the schematron validation artefacts. Any of them can be used for validation of an A-NZ electronic invoice.
-
-## PINT A-NZ Migration
-In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published.  The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The PINT A-NZ Billing specification became mandatory on **15 November 2024** and after **15 May 2025** the A-NZ Peppol BIS 3.0 extensions will be removed and no longer supported.  For more information see the [PINT A-NZ v1.0.1](https://docs.peppol.eu/poac/aunz/) (current) and [PINT A-NZ v1.1.0](https://docs.peppol.eu/poac/aunz/2024-Q4/) (effective 10 March 2025) specifications. The validation artefacts are also included in the downloadable resources.
 
 ## Validation process
 
