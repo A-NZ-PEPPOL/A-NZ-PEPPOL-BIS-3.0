@@ -8,7 +8,7 @@ This repository contains;
 
 Guidance notes related to the A-NZ BIS 3.0 & PINT A-NZ specifications are available [here](https://github.com/A-NZ-PEPPOL/Guidance-documents).
 
-*Note* - The A-NZ BIS 3.0 extension has been deprecated and will no longer be maintained for future Peppol releases.  
+**Note** - The A-NZ BIS 3.0 extension has been deprecated and will no longer be maintained for future Peppol releases.  
 PINT A-NZ is the default mandatory specification for A-NZ eInvoicing and will be updated to align with future Peppol PINT releases. The current PINT A-NZ specification and information to support its implementation can be found here. 
 
 ## A-NZ Release Notes:
