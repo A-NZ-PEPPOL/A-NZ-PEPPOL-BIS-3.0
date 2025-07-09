@@ -1,20 +1,20 @@
-# A-NZ Specifications
+# A-NZ Specifications (Deprecated)
 
 This repository contains; 
 
-   * A-NZ Invoice specification
+   * A-NZ Invoice specification (Deprecated)
 
-   * A-NZ Self-Billing specification
+   * A-NZ Self-Billing specification (Deprecated)
 
-Guidance notes related to specifications are available [here](https://github.com/A-NZ-PEPPOL/Guidance-documents).
+Guidance notes related to the A-NZ BIS 3.0 & PINT A-NZ specifications are available [here](https://github.com/A-NZ-PEPPOL/Guidance-documents).
 
-## PINT A-NZ Migration
-In December 2023 the new Peppol International (PINT) A-NZ Billing specification was published. The Australian and New Zealand Peppol Authorities have committed to migrating to that specification.  The PINT A-NZ Billing specification became mandatory on 15 November 2024. The A-NZ Peppol BIS 3.0 extensions will be removed after 15 May 2025 and no longer supported. For more information see the current [PINT A-NZ v1.1.0](https://docs.peppol.eu/poac/aunz/) specifications.
+**Note** - The A-NZ BIS 3.0 extension has been deprecated and will no longer be maintained for future Peppol releases.  
+PINT A-NZ is the default mandatory specification for A-NZ eInvoicing and will be updated to align with future Peppol PINT releases. The current PINT A-NZ specification and information to support its implementation can be found here. 
 
 ## A-NZ Release Notes:
 Peppol BIS Billing release notes are available [here](https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/release-notes/).
 
-### November 2024 – Invoice and Self-Billing specification v1.0.12
+### November 2024 – Invoice and Self-Billing specification v1.0.12 (Deprecated)
 Publication date 9th December 2024 , Mandatory from 10th March 2025.
 Aligns with the Peppol BIS 3.0.18 November 2024 release.
 

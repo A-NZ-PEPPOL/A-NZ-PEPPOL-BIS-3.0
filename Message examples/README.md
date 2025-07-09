@@ -1,5 +1,9 @@
 # A-NZ Message Samples
 
+**Note** - The A-NZ BIS 3.0 extension has been deprecated and will no longer be maintained for future Peppol releases.  
+PINT A-NZ is the default mandatory specification for A-NZ eInvoicing and will be updated to align with future Peppol PINT releases. The current PINT A-NZ specification and information to support its implementation can be found [here](https://docs.peppol.eu/poac/aunz/).  
+
+
 This repository contains Peppol post-award UBL sample messages, including invoice, invoice response, credit note, self-billing invoice, despatch advice, order, order agreement, catalogue and punch out. 
 
 There are multiple invoice samples illustrating different business scenarios or use cases, e.g. freight only invoices, GST only invoices or invoices with a negative amount. A description of each sample and the business scenario/use case it illustrates is provided below. 
